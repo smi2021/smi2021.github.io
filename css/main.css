@@ -492,12 +492,6 @@ h2 {
   background-repeat: no-repeat;
 }
 
-#past li{
-    background-color: #535c70;
-    color:#eef6f7;
-    border: 0;
-}
-
 #past a{
 	text-decoration:		none;
 	color:					#adc4f1;
@@ -517,9 +511,6 @@ h2 {
   text-transform: uppercase;
 }
 
-#past h2 {
-
-}
 
  /*************************
 *******PROGRAM CSS******
