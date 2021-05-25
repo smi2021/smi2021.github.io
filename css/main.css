@@ -426,6 +426,15 @@ h2 {
   top: 0
 }
 
+#event a {
+  color: #ebae2c
+}
+
+#event a:hover{
+	text-decoration:		none;
+	color:					#e6d1cf;
+}
+
 #event li{
     background-color: #33888F;
     border: 0;
