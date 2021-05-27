@@ -283,6 +283,15 @@ h2 {
   top: 7%;
 }
 
+#cfp a{
+	text-decoration:		none;
+	color:					#f89b76;
+}
+
+#cfp a:hover{
+	text-decoration:		none;
+	color:					#e6d1cf;
+}
 
 #cfp .btn {
   border-radius: 0;
