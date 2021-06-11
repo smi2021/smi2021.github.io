@@ -498,6 +498,38 @@ h2 {
   right: 0;
 }
 
+
+/*************************
+*******REG CSS******
+**************************/
+#reg {
+  background-color: #535c70;
+   color: #cecea3;
+  background-position: 50% 0;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+#reg a{
+	text-decoration:		none;
+	color:					#adc4f1;
+}
+
+#reg a:hover{
+	text-decoration:		none;
+	color:					#e6d1cf;
+}
+
+#reg h2 {
+  color: #eef6f7;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
 /*************************
 *******PAST CSS******
 **************************/
