@@ -566,8 +566,8 @@ h2 {
 *******PROGRAM CSS******
 **************************/
 #program {
-  background-color: #FFAA00;
-   color: #33888F;
+  background-color: #506081;
+  color: #c9c9c9;
   background-position: 50% 0;
   background-size: contain;
   position: relative;
@@ -575,12 +575,12 @@ h2 {
 }
 
 #program li{
-    background-color: #f72626;
+    background-color: #506081;
     border: 0;
 }
 
 #program h2 {
-  color: #33888F;
+  color: #5fe2ee;
   font-size: 36px;
   font-weight: 300;
   margin-bottom: 40px;
@@ -769,7 +769,7 @@ h2 {
 }
 
 #keynote .h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 24px;
   font-weight: 300;
   line-height: 26px;

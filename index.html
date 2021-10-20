@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="cache-control" content="max-age=3600,must-revalidate">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shape Modelling International - SMI 2021">
-    <meta name="author" content="SMI">
-    <meta name="Keywords" content="SMI2021, SMI 2021, acquisition, reconstruction, behavior, animation,
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="cache-control" content="max-age=3600,must-revalidate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Shape Modelling International - SMI 2021"
+    />
+    <meta name="author" content="SMI" />
+    <meta
+      name="Keywords"
+      content="SMI2021, SMI 2021, acquisition, reconstruction, behavior, animation,
   compression, streaming, computational topology, correspondence, registration,
   curves, surfaces, deep learning for shape processing,
   fabrication, 3D printing, shape collections,
@@ -15,16 +19,17 @@
   implicit surfaces, interactive modeling, design and editing
   medial and skeletal representations, parametric and procedural models
   segmentation, shape semantics, shape analysis, shape retrieval,
-  shape correspondence, shape retrieval" />
+  shape correspondence, shape retrieval"
+    />
     <title>SMI 2021: Shape Modeling International</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-</head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
 
-<body role="document">
+  <body role="document">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
@@ -35,29 +40,38 @@
     <script type="text/javascript" src="js/main.js"></script>
 
     <header id="header" role="banner">
+      <div class="main-nav">
         <div class="main-nav">
-            <div class="main-nav">
-                <div class="container">
-                    <div class="row">
+          <div class="container">
+            <div class="row">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#navbar"
+                  aria-expanded="false"
+                  aria-controls="navbar"
+                >
+                  <span class="sr-only">Toggle navigation</span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                  <img
+                    class="img-responsive"
+                    style="padding-top: 5px"
+                    src="images/smilogo.png"
+                    alt="logo"
+                  />
+                </a>
+              </div>
 
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                <span class="sr-only">Toggle navigation</span>
-                            </button>
-                            <a class="navbar-brand" href="index.html">
-                                <img class="img-responsive" style="padding-top: 5px;" src="images/smilogo.png"
-                                    alt="logo">
-                            </a>
-                        </div>
+              <div id="navbar" class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="scroll active">
+                    <a href="#home">Home</a>
+                  </li>
 
-                        <div id="navbar" class="navbar-collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="scroll active">
-                                    <a href="#home">Home</a>
-                                </li>
-
-                                <!--<li class="nav-item dropdown">
+                  <!--<li class="nav-item dropdown">
                 			<a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About...</a>
                 			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     		<ul>
@@ -81,40 +95,43 @@
                         </ul>
                       </div>
                     </li> -->
-                                <li class="scroll">
-                                    <a class="scroll" href="#about">About SMI</a>
-                                </li>
-                                <li class="scroll">
-                                    <a class="scroll" href="#cfp">Submission</a>
-                                </li>
-                                <li class="scroll">
-                                    <a class="scroll" href="#reg">Registration</a>
-                                </li>
-                                <li class="scroll">
-                                    <a class="scroll" href="#program">Program</a>
-                                </li>
-                                <li class="scroll">
-                                    <a class="scroll" href="#event">Organization</a>
-                                </li>
-                                <li class="scroll">
-                                    <a class="scroll" href="fase(removethis).html"
-                                        onclick="window.open('fase.html', '_self')">FASE 2021</a>
-                                </li>
-                                <li class="scroll">
-                                    <a class="scroll" href="#past">Past</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                  <li class="scroll">
+                    <a class="scroll" href="#about">About SMI</a>
+                  </li>
+                  <li class="scroll">
+                    <a class="scroll" href="#cfp">Submission</a>
+                  </li>
+                  <li class="scroll">
+                    <a class="scroll" href="#reg">Registration</a>
+                  </li>
+                  <li class="scroll">
+                    <a class="scroll" href="#program">Program</a>
+                  </li>
+                  <li class="scroll">
+                    <a class="scroll" href="#event">Organization</a>
+                  </li>
+                  <li class="scroll">
+                    <a
+                      class="scroll"
+                      href="fase(removethis).html"
+                      onclick="window.open('fase.html', '_self')"
+                      >FASE 2021</a
+                    >
+                  </li>
+                  <li class="scroll">
+                    <a class="scroll" href="#past">Past</a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </header>
 
-
     <section id="home">
-        <div id="main-slider" class="carousel slide" data-ride="carousel">
-            <!-- <ol class="carousel-indicators">
+      <div id="main-slider" class="carousel slide" data-ride="carousel">
+        <!-- <ol class="carousel-indicators">
 				<li data-target="#main-slider" data-slide-to="0" class="active"></li>
 				<li data-target="#main-slider" data-slide-to="1"></li>
 				<li data-target="#main-slider" data-slide-to="2"></li>
@@ -122,955 +139,1544 @@
 				<li data-target="#main-slider" data-slide-to="4"></li>
 			</ol> -->
 
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img class="img-responsive" src="images/slider/bg4.jpg" alt="slider">
-                    <div class="carousel-caption">
-                        <h2>submit your work to SMI 2021</h2>
-                        <a href="#cfp">Check the Submission Page for more details</a>
-                        <h4>paper submission deadline on June 30<sup>th</sup>, 2021</h4>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">
-                    <div class="carousel-caption">
-                        <h2>Don't miss the SMI 2021 Symposium</h2>
-                        <h4>Submit your online registration</h4>
-                        <h4>paper submission deadline on Wednesday, June 30<sup>th</sup>, 2021</h4>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
-                    <div class="carousel-caption">
-                        <h2>submit your work to SMI 2021</h2>
-                        <a href="#cfp">Check the Submission Page for more details</a>
-                        <h4>paper submission deadline on Wednesday, June 30<sup>th</sup>, 2021</h4>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
-                    <div class="carousel-caption">
-                        <h2>Don't miss the SMI 2021 Symposium</h2>
-                        <h4>Submit your online registration</h4>
-                        <h4>paper submission deadline on Wednesday, June 30<sup>th</sup>, 2021</h4>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <img class="img-responsive" src="images/slider/bg5.jpg" alt="slider">
-                    <div class="carousel-caption">
-                        <h2>submit your work to SMI 2021</h2>
-                        <a href="#cfp">Check the Submission Page for more details</a>
-                        <h4>paper submission deadline on Wednesday, June 30<sup>th</sup>, 2021</h4>
-                    </div>
-                </div>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img
+              class="img-responsive"
+              src="images/slider/bg4.jpg"
+              alt="slider"
+            />
+            <div class="carousel-caption">
+              <h2>submit your work to SMI 2021</h2>
+              <a href="#cfp">Check the Submission Page for more details</a>
+              <h4>paper submission deadline on June 30<sup>th</sup>, 2021</h4>
             </div>
+          </div>
+
+          <div class="item">
+            <img
+              class="img-responsive"
+              src="images/slider/bg2.jpg"
+              alt="slider"
+            />
+            <div class="carousel-caption">
+              <h2>Don't miss the SMI 2021 Symposium</h2>
+              <h4>Submit your online registration</h4>
+              <h4>
+                paper submission deadline on Wednesday, June 30<sup>th</sup>,
+                2021
+              </h4>
+            </div>
+          </div>
+
+          <div class="item">
+            <img
+              class="img-responsive"
+              src="images/slider/bg3.jpg"
+              alt="slider"
+            />
+            <div class="carousel-caption">
+              <h2>submit your work to SMI 2021</h2>
+              <a href="#cfp">Check the Submission Page for more details</a>
+              <h4>
+                paper submission deadline on Wednesday, June 30<sup>th</sup>,
+                2021
+              </h4>
+            </div>
+          </div>
+
+          <div class="item">
+            <img
+              class="img-responsive"
+              src="images/slider/bg1.jpg"
+              alt="slider"
+            />
+            <div class="carousel-caption">
+              <h2>Don't miss the SMI 2021 Symposium</h2>
+              <h4>Submit your online registration</h4>
+              <h4>
+                paper submission deadline on Wednesday, June 30<sup>th</sup>,
+                2021
+              </h4>
+            </div>
+          </div>
+
+          <div class="item">
+            <img
+              class="img-responsive"
+              src="images/slider/bg5.jpg"
+              alt="slider"
+            />
+            <div class="carousel-caption">
+              <h2>submit your work to SMI 2021</h2>
+              <a href="#cfp">Check the Submission Page for more details</a>
+              <h4>
+                paper submission deadline on Wednesday, June 30<sup>th</sup>,
+                2021
+              </h4>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="about">
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-6">
-                <h2>About SMI</h2>
-                <p><b>Shape Modeling International (SMI 2021)</b> provides an international forum for the dissemination
-                    of
-                    new mathematical theories and computational techniques for modeling, simulating and processing
-                    digital representations of shapes and their properties to a community of researchers,
-                    developers, students, and practitioners across a wide range of fields. Conference proceedings
-                    (long and short papers) will be published in a Special Issue of Computer &amp; Graphics Journal,
-                    Elsevier. Papers presenting original research are being sought in all areas of shape modeling
-                    and its applications.</p>
-                <p>More information on topics, submission guidelines, and important dates are given below.</p>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6">
+          <h2>About SMI</h2>
+          <p>
+            <b>Shape Modeling International (SMI 2021)</b> provides an
+            international forum for the dissemination of new mathematical
+            theories and computational techniques for modeling, simulating and
+            processing digital representations of shapes and their properties to
+            a community of researchers, developers, students, and practitioners
+            across a wide range of fields. Conference proceedings (long and
+            short papers) will be published in a Special Issue of Computer &amp;
+            Graphics Journal, Elsevier. Papers presenting original research are
+            being sought in all areas of shape modeling and its applications.
+          </p>
+          <p>
+            More information on topics, submission guidelines, and important
+            dates are given below.
+          </p>
 
-                <h2>Co-located event</h2>
-                <p>SMI 2021 will be an online conference in 2021.</p>
-                <p>The Fabrication and Sculpting Event <a href="fase.html"
-                        onclick="window.open('fase.html', '_self')">FASE (2021)</a> will be organized in co-location
-                    with SMI 2021. It presents original research at the intersection of theory and practice in shape
-                    modeling, fabrication and sculpting.
+          <h2>Co-located event</h2>
+          <p>SMI 2021 will be an online conference in 2021.</p>
+          <p>
+            The Fabrication and Sculpting Event
+            <a href="fase.html" onclick="window.open('fase.html', '_self')"
+              >FASE (2021)</a
+            >
+            will be organized in co-location with SMI 2021. It presents original
+            research at the intersection of theory and practice in shape
+            modeling, fabrication and sculpting.
+          </p>
 
-                <h2>When and Where</h2>
-                <p>The symposium will take place from November 13<sup>th</sup> to 16<sup>th</sup> online. The day before
-                    we will have a workshop.</p>
-            </div>
-            <div class="col-sm-2"></div>
+          <h2>When and Where</h2>
+          <p>
+            The symposium will take place from November 13<sup>th</sup> to
+            16<sup>th</sup> online. The day before we will have a workshop.
+          </p>
         </div>
+        <div class="col-sm-2"></div>
+      </div>
     </section>
 
     <section id="cfp">
-        <div class="row">
-            <h2>SMI21: Submitting a Paper</br></h2>
-            <div class="col-sm-2"></div>
+      <div class="row">
+        <h2>SMI21: Submitting a Paper</h2>
+        <div class="col-sm-2"></div>
 
-            <div class="col-sm-4">
-                <h4>IMPORTANT DATES</h4>
-                <p>
-                    Full paper submission: Wednesday, June 30<sup>th</sup>, 2021<br />
-<!--                     <p>
+        <div class="col-sm-4">
+          <h4>IMPORTANT DATES</h4>
+          <p>
+            Full paper submission: Wednesday, June 30<sup>th</sup>, 2021<br />
+            <!--                     <p>
                         <font size="-1" color ="orange"><strong>To authors: please start your submission to the journal and select VSI:SMI2021 BEFORE July 1 to meet 
 				the deadline. The PC chairs may allow for additional three days to make final changes.
 			</strong></font>
                     </p> -->
-                    First review notification: <strike>Wednesday, July 28<sup>th</sup></strike> <strong>Sunday, Aug 1<sup>st</sup></strong>, 2021<br />
-                    Revised papers: Wednesday, September 15<sup>th</sup>, 2021<br />
-                    Second review notification: Wednesday, October 6<sup>th</sup>, 2021<br />
-                    Camera ready full papers due: Wednesday, October 20<sup>th</sup>, 2021<br />
-                    Conference: Sunday-Tuesday, November 14<sup>th</sup>-16<sup>th</sup>, 2021<br />
-                </p>
-                <!-- <p>
+            First review notification:
+            <strike>Wednesday, July 28<sup>th</sup></strike>
+            <strong>Sunday, Aug 1<sup>st</sup></strong
+            >, 2021<br />
+            Revised papers: Wednesday, September 15<sup>th</sup>, 2021<br />
+            Second review notification: Wednesday, October 6<sup>th</sup>,
+            2021<br />
+            Camera ready full papers due: Wednesday, October 20<sup>th</sup>,
+            2021<br />
+            Conference: Sunday-Tuesday, November
+            14<sup>th</sup>-16<sup>th</sup>, 2021<br />
+          </p>
+          <!-- <p>
                     <font size="-1">All deadlines at 23:59 UTC/GMT</font>
                 </p> -->
-                <h4>Topics</h4>
-                <ul>
-                    <li>Acquisition and reconstruction</li>
-                    <li>Behavior and animation models</li>
-                    <li>Compression and streaming</li>
-                    <li>Computational topology</li>
-                    <li>Correspondence and registration</li>
-                    <li>Curves and surfaces</li>
-                    <li>Deep Learning Techniques for Shape Processing</li>
-                    <li>Digital fabrication and 3D printing</li>
-                    <li>Exploration of shape collections</li>
-                    <li>Feature extraction and classification</li>
-                    <li>Healing and resampling</li>
-                    <li>Implicit surfaces</li>
-                    <li>Interactive modeling, design and editing</li>
-                    <li>Medial and skeletal representations</li>
-                    <li>Parametric and procedural models</li>
-                    <li>Segmentation</li>
-                    <li>Semantics of shapes</li>
-                    <li>Shape analysis and retrieval</li>
-                    <li>Shape correspondence and retrieval</li>
-                </ul>
-            </div>
+          <h4>Topics</h4>
+          <ul>
+            <li>Acquisition and reconstruction</li>
+            <li>Behavior and animation models</li>
+            <li>Compression and streaming</li>
+            <li>Computational topology</li>
+            <li>Correspondence and registration</li>
+            <li>Curves and surfaces</li>
+            <li>Deep Learning Techniques for Shape Processing</li>
+            <li>Digital fabrication and 3D printing</li>
+            <li>Exploration of shape collections</li>
+            <li>Feature extraction and classification</li>
+            <li>Healing and resampling</li>
+            <li>Implicit surfaces</li>
+            <li>Interactive modeling, design and editing</li>
+            <li>Medial and skeletal representations</li>
+            <li>Parametric and procedural models</li>
+            <li>Segmentation</li>
+            <li>Semantics of shapes</li>
+            <li>Shape analysis and retrieval</li>
+            <li>Shape correspondence and retrieval</li>
+          </ul>
+        </div>
 
-            <div class="col-sm-4">
-                <ul>
-                    <li>Shape modeling applications (biomedical, GIS, artistic, cultural heritage and others)</li>
-                    <li>Shape statistics</li>
-                    <li>Shape transformation, bending and deformation</li>
-                    <li>Simulation</li>
-                    <li>Sketching and 3D input modalities</li>
-                    <li>Triangle and polygonal meshes</li>
-                    <li>Shape modelling for 3D printing and fabrication</li>
-                    <li>Biomedical applications</li>
-                    <li>Artistic and cultural applications</li>
-                </ul>
-                <h4>Submission</h4>
-                <p>
-                    Papers should present previously unpublished, original results that are not simultaneously submitted
-                    elsewhere.
-                </p>
-                <p>
-                    Submissions should be formatted according to the style guidelines for the Computers &amp;Graphics
-                    Journal and should not exceed 12 pages, including figures and references. We strongly recommend
-                    using the LaTeX template to format your paper. We also accept papers formatted by MS Word according
-                    to the style guidelines for Computers &amp; Graphics. The file must be exported to pdf file for the
-                    first round of submission. For format details, please refer to <a
-                        href="http://www.elsevier.com/journals/computers-graphics/0097-8493/guide-for-authors"
-                        target="_blank">Computers &amp; Graphics Guide for Authors</a>.
-                </p>
-                <p>
-                    The SMI 2021 conference will use a double-blind review process. Consequently, all submissions must
-                    be anonymous. All papers should be submitted directly via the journal online submission system of
-                    Computers &amp; Graphics (click <a
-                        href="https://www.editorialmanager.com/cag/default.aspx">here</a>). When
-                    submitting your paper to SMI 2021, please make sure that the type of article is specified as <strong
-                        style="color:navajowhite;">"VSI:SMI 2021”</strong>.
-<!--                 </p>
+        <div class="col-sm-4">
+          <ul>
+            <li>
+              Shape modeling applications (biomedical, GIS, artistic, cultural
+              heritage and others)
+            </li>
+            <li>Shape statistics</li>
+            <li>Shape transformation, bending and deformation</li>
+            <li>Simulation</li>
+            <li>Sketching and 3D input modalities</li>
+            <li>Triangle and polygonal meshes</li>
+            <li>Shape modelling for 3D printing and fabrication</li>
+            <li>Biomedical applications</li>
+            <li>Artistic and cultural applications</li>
+          </ul>
+          <h4>Submission</h4>
+          <p>
+            Papers should present previously unpublished, original results that
+            are not simultaneously submitted elsewhere.
+          </p>
+          <p>
+            Submissions should be formatted according to the style guidelines
+            for the Computers &amp;Graphics Journal and should not exceed 12
+            pages, including figures and references. We strongly recommend using
+            the LaTeX template to format your paper. We also accept papers
+            formatted by MS Word according to the style guidelines for Computers
+            &amp; Graphics. The file must be exported to pdf file for the first
+            round of submission. For format details, please refer to
+            <a
+              href="http://www.elsevier.com/journals/computers-graphics/0097-8493/guide-for-authors"
+              target="_blank"
+              >Computers &amp; Graphics Guide for Authors</a
+            >.
+          </p>
+          <p>
+            The SMI 2021 conference will use a double-blind review process.
+            Consequently, all submissions must be anonymous. All papers should
+            be submitted directly via the journal online submission system of
+            Computers &amp; Graphics (click
+            <a href="https://www.editorialmanager.com/cag/default.aspx">here</a
+            >). When submitting your paper to SMI 2021, please make sure that
+            the type of article is specified as
+            <strong style="color: navajowhite">"VSI:SMI 2021”</strong>.
+            <!--                 </p>
 		     <font size="-1" color ="orange"><strong>To authors: please start your submission to the journal and select VSI:SMI2021 BEFORE July 1 to meet 
 				the deadline. The PC chairs may allow for additional three days to make final changes.
 			</strong></font>
                 <p> -->
-                    Any accepted paper is required to have at least one registered author to attend and present the
-                    paper at the conference. To register go to <a href=http://tx.ag/SMI21> the registration link </a>. 
-                </p>
-                </br>
-                <!--  <div align="center">
+            Any accepted paper is required to have at least one registered
+            author to attend and present the paper at the conference. To
+            register go to
+            <a href="http://tx.ag/SMI21"> the registration link </a>.
+          </p>
+          <!--  <div align="center">
                 <a href="https://easychair.org/cfp/smifase2021" class="btn btn-default" role="button"  style="vertical-align:middle" target="_blank"><font color="darkred">Submit your paper here!</font></a>
               </div> -->
-            </div>
-	
-	<div align="center">
-	 <a href=http://tx.ag/SMI21 class="btn btn-default" role="button"  style="vertical-align:middle" target="_blank"><font color="darkred">
-		Register here!</font></a>
-	            </div>
         </div>
+
+        <div align="center">
+          <a
+            href="http://tx.ag/SMI21"
+            class="btn btn-default"
+            role="button"
+            style="vertical-align: middle"
+            target="_blank"
+          >
+            <font color="darkred"> Register here!</font>
+          </a>
+        </div>
+      </div>
     </section>
-
-
 
     <section id="about">
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-6">
-                <h2>Subdivision History Day: Sunday, November 14th, 2021</h2>
-                <p><b>Shape Modeling International (SMI 2021)</b> will have a workshop/panel that is called "Subdivision
-                    History Day" The goal is not only to discuss important milestones
-                    but also to introduce the human element behind the discoveries. Participants will tell us anecdotes
-                    providing insights behind the discoveries. We hope that a science historian or a popular science
-                    writer (or a few of us) can turn the collected information first into an article and later into a
-                    book. The article can potentially be published in
-                    Computers & Graphics. If this event becomes successful, we can also extend it to other fields in
-                    computer graphics or shape modeling.</p>
-                <p>More information will be provided soon.</p>
-
-
-            </div>
-            <div class="col-sm-2"></div>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6">
+          <h2>Subdivision History Day: Sunday, November 14th, 2021</h2>
+          <p>
+            <b>Shape Modeling International (SMI 2021)</b> will have a
+            workshop/panel that is called "Subdivision History Day" The goal is
+            not only to discuss important milestones but also to introduce the
+            human element behind the discoveries. Participants will tell us
+            anecdotes providing insights behind the discoveries. We hope that a
+            science historian or a popular science writer (or a few of us) can
+            turn the collected information first into an article and later into
+            a book. The article can potentially be published in Computers &
+            Graphics. If this event becomes successful, we can also extend it to
+            other fields in computer graphics or shape modeling.
+          </p>
+          <p>More information will be provided soon.</p>
         </div>
+        <div class="col-sm-2"></div>
+      </div>
     </section>
 
-
     <section id="cfp">
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-6">
-                <h2>Call For Nominations: <br>Tosiyasu Kunii Award</h2>
-                <p>Shape Modeling International Awards Committee is seeking proposals to
-nominate the shape modeling researchers with distinguished careers for
-the Tosiyasu Kunii Award. The recipients of the award will be selected
-by the SMI Awards Committee, based on proposals from the research
-community in Shape Modeling. The proposals can simply be in a formal
-letter format. Self-nominations will also be considered. The
-nomination letters should provide a clear description of the
-substantial contributions of the candidate into the field of shape
-modeling.
-Nomination proposals can be accepted by the SMI awards committee at
-any time. The decision will be announced two months before the
-conference. The Awards are presented at the Shape Modeling Conference
-and the award recipients are invited to give a keynote speech at Shape
-Modeling Conference. There will also be interviews with the
-recipients. The proposers will normally be responsible for the
-interviews, which will be published in the proceedings. 
-Please send your nominations to the chair of award commiteee, 
-<b> Brian Wyvill: brianwyvill at gmail dot com</b>, before <b>September 5th, 2021</b>. 
-The award committee will announce the winner on Sept, 17th, 2021.		
-			</p>
-			
- <h2>Call For Nominations: <br>SMI Young Investigator Award</h2>
-  <p>Shape Modeling International Awards Committee is seeking proposals to
-nominate young researchers' significant contributions to shape
-modeling for the Shape Modeling International Young Researcher Award.
-Candidates must have received their Ph.D. degrees at most seven years
-ago. The recipients of the award will be selected by the SMI Awards
-Committee, based on proposals from the research community in Shape
-Modeling. The proposals can simply be in a formal letter format.
-Self-nominations will also be considered. The nomination letters
-should provide a clear description of the substantial contributions of
-the candidate into the field of shape modeling. Nomination proposals
-can be accepted by the SMI awards committee at any time. The decision
-will be announced two months before the conference. The Awards are
-presented at the Shape Modeling Conference and the award recipients
-are invited to give a keynote speech at the Shape Modeling Conference.
-There will also be interviews with the recipients. The proposers will
-normally be responsible for the interviews, which will be published in
-the proceedings. Please send your nominations to the chair of award commiteee,
-<b> Brian Wyvill: brianwyvill at gmail dot com</b>, before <b>September 5th, 2021</b>. 
-The award committee will announce the winner on Sept, 17th, 2021.			
-			</p>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6">
+          <h2>Call For Nominations: <br />Tosiyasu Kunii Award</h2>
+          <p>
+            Shape Modeling International Awards Committee is seeking proposals
+            to nominate the shape modeling researchers with distinguished
+            careers for the Tosiyasu Kunii Award. The recipients of the award
+            will be selected by the SMI Awards Committee, based on proposals
+            from the research community in Shape Modeling. The proposals can
+            simply be in a formal letter format. Self-nominations will also be
+            considered. The nomination letters should provide a clear
+            description of the substantial contributions of the candidate into
+            the field of shape modeling. Nomination proposals can be accepted by
+            the SMI awards committee at any time. The decision will be announced
+            two months before the conference. The Awards are presented at the
+            Shape Modeling Conference and the award recipients are invited to
+            give a keynote speech at Shape Modeling Conference. There will also
+            be interviews with the recipients. The proposers will normally be
+            responsible for the interviews, which will be published in the
+            proceedings. Please send your nominations to the chair of award
+            commiteee, Brian Wyvill: brianwyvill at gmail dot com, before
+            September 5th, 2021. The award committee will announce the winner on
+            Sept, 17th, 2021.
+          </p>
+          <h3>
+            Award recipient:
+            <a href="http://pers.ge.imati.cnr.it/Falcidieno/home.html"
+              >BIANCA FALCIDIENO</a
+            >
+          </h3>
 
-
-            </div>
-            <div class="col-sm-2"></div>
+          <h2>Call For Nominations: <br />SMI Young Investigator Award</h2>
+          <p>
+            Shape Modeling International Awards Committee is seeking proposals
+            to nominate young researchers' significant contributions to shape
+            modeling for the Shape Modeling International Young Researcher
+            Award. Candidates must have received their Ph.D. degrees at most
+            seven years ago. The recipients of the award will be selected by the
+            SMI Awards Committee, based on proposals from the research community
+            in Shape Modeling. The proposals can simply be in a formal letter
+            format. Self-nominations will also be considered. The nomination
+            letters should provide a clear description of the substantial
+            contributions of the candidate into the field of shape modeling.
+            Nomination proposals can be accepted by the SMI awards committee at
+            any time. The decision will be announced two months before the
+            conference. The Awards are presented at the Shape Modeling
+            Conference and the award recipients are invited to give a keynote
+            speech at the Shape Modeling Conference. There will also be
+            interviews with the recipients. The proposers will normally be
+            responsible for the interviews, which will be published in the
+            proceedings. Please send your nominations to the chair of award
+            commiteee, Brian Wyvill: brianwyvill at gmail dot com, before
+            September 5th, 2021. The award committee will announce the winner on
+            Sept, 17th, 2021.
+          </p>
+          <h3>
+            Award recipient:
+            <a href="http://imagine.inrialpes.fr/people/mskouras/"
+              >MÉLINA SKOURAS</a
+            >
+          </h3>
         </div>
+        <div class="col-sm-2"></div>
+      </div>
     </section>
 
     <section id="r-stamp">
-        <div class="col-sm-2"></div>
-        <div class="container r-stamp-content">
-            <h2 class="heading">Replicability Stamp (Tentative)</h2>
-            <p>
-                SMI participates in the <a href="http://www.replicabilitystamp.org/" target="_blank">Replicability Stamp
-                    Initiative</a>, an additional recognition for authors who are willing to go one step further, and in
-                addition to publishing the paper, provide a complete open-source implementation. The Graphics
-                Replicability Stamp Initiative (GRSI) is an independent group of volunteers who want to help the
-                community by enabling sharing of code and data as a community resource for non-commercial use. The
-                volunteers review the submitted code and certify its replicability, awarding a replicability stamp,
-                which is an additional recognition for authors of accepted papers who are willing to provide a complete
-                implementation of their algorithm, to replicate the results presented in their paper. The replicability
-                stamp is not meant to be a measure of the scientiﬁc quality of the paper or of the usefulness of
-                presented algorithms. Rather, it is meant to be an endorsement of the replicability of the results
-                presented in it!
-            </p>
-            <p>
-                The paper and the recognition of the service provided to the community by releasing the code.
-                Submissions for the replicability stamp will be considered only after the paper has been fully accepted.
-                Submissions that are awarded the replicability stamp will receive additional exposure by being listed on
-                this website. The purpose of this stamp is to promote reproducibility of research results and to allow
-                scientists and practitioners to immediately beneﬁt from state-of-the-art research results, without
-                spending months re-implementing the proposed algorithms and trying to ﬁnd the right parameter values. We
-                also hope that it will indirectly foster scientiﬁc progress, since it will allow researchers to reliably
-                compare with and to build upon existing techniques, knowing that they are using exactly the same
-                implementation. This is an initiative supported by a growing list of publishers, journals, and
-                conferences.
-            </p>
-            <p>
-                The submission procedure is lightweight (<a href="http://www.replicabilitystamp.org/requirements.html"
-                    target="_blank">click here to see requirements</a>) and we encourage the authors of accepted papers
-                to participate by filling the form that they received in the acceptance letter. The papers with the
-                replicability stamp will receive additional exposure during SMI, and will be listed on the replicability
-                stamp website.
-            </p>
-            <!-- <p>The deadline for applying is May 15th, 2018 at 23:59 CET. For any request or comment regarding the replicability stamp, please contact directly the paper chairs of the corresponding conference.
+      <div class="col-sm-2"></div>
+      <div class="container r-stamp-content">
+        <h2 class="heading">Replicability Stamp (Tentative)</h2>
+        <p>
+          SMI participates in the
+          <a href="http://www.replicabilitystamp.org/" target="_blank"
+            >Replicability Stamp Initiative</a
+          >, an additional recognition for authors who are willing to go one
+          step further, and in addition to publishing the paper, provide a
+          complete open-source implementation. The Graphics Replicability Stamp
+          Initiative (GRSI) is an independent group of volunteers who want to
+          help the community by enabling sharing of code and data as a community
+          resource for non-commercial use. The volunteers review the submitted
+          code and certify its replicability, awarding a replicability stamp,
+          which is an additional recognition for authors of accepted papers who
+          are willing to provide a complete implementation of their algorithm,
+          to replicate the results presented in their paper. The replicability
+          stamp is not meant to be a measure of the scientiﬁc quality of the
+          paper or of the usefulness of presented algorithms. Rather, it is
+          meant to be an endorsement of the replicability of the results
+          presented in it!
+        </p>
+        <p>
+          The paper and the recognition of the service provided to the community
+          by releasing the code. Submissions for the replicability stamp will be
+          considered only after the paper has been fully accepted. Submissions
+          that are awarded the replicability stamp will receive additional
+          exposure by being listed on this website. The purpose of this stamp is
+          to promote reproducibility of research results and to allow scientists
+          and practitioners to immediately beneﬁt from state-of-the-art research
+          results, without spending months re-implementing the proposed
+          algorithms and trying to ﬁnd the right parameter values. We also hope
+          that it will indirectly foster scientiﬁc progress, since it will allow
+          researchers to reliably compare with and to build upon existing
+          techniques, knowing that they are using exactly the same
+          implementation. This is an initiative supported by a growing list of
+          publishers, journals, and conferences.
+        </p>
+        <p>
+          The submission procedure is lightweight (<a
+            href="http://www.replicabilitystamp.org/requirements.html"
+            target="_blank"
+            >click here to see requirements</a
+          >) and we encourage the authors of accepted papers to participate by
+          filling the form that they received in the acceptance letter. The
+          papers with the replicability stamp will receive additional exposure
+          during SMI, and will be listed on the replicability stamp website.
+        </p>
+        <!-- <p>The deadline for applying is May 15th, 2018 at 23:59 CET. For any request or comment regarding the replicability stamp, please contact directly the paper chairs of the corresponding conference.
 	        </p>-->
-            <p>
-                The qualified papers will be decorated with the <img src="images/R-Stamp-icon.jpg" /> logo in the
-                program. <br />
-                <font size="-1">(logo design by Michela Mortara)</font>
-            </p>
-        </div>
-        <div class="col-sm-2"></div>
+        <p>
+          The qualified papers will be decorated with the
+          <img src="images/R-Stamp-icon.jpg" /> logo in the program. <br />
+          <font size="-1">(logo design by Michela Mortara)</font>
+        </p>
+      </div>
+      <div class="col-sm-2"></div>
     </section>
 
     <section id="reg">
-        <div class="row">
-            <div class="col-sm-2"></div>
-            <div class="col-sm-6">
-                <h2>Registration</h2>
-		      <ul>
-                    <li>Full Registration: $100</li>
-                   <li>ACM/Eurographics/IEEE Members: $50</li>
-                    <li>Students: $10</li>
-                    <li>Registration fee is waived for Keynote Speakers, Subdivision Day Contributors, and Student Volunteers. Please register by choosing waived. </li>
-                </ul>
-		 To register go to <a href=http://tx.ag/SMI21> the registration link. </a>. <p>
-            </div>
-            
-		<div align="center">
-	 <a href=http://tx.ag/SMI21 class="btn btn-default" role="button"  style="vertical-align:middle" target="_blank"><font color="darkred">
-		Register here!</font></a>
-	            </div>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6">
+          <h2>Registration</h2>
+          <ul>
+            <li>Full Registration: $100</li>
+            <li>ACM/Eurographics/IEEE Members: $50</li>
+            <li>Students: $10</li>
+            <li>
+              Registration fee is waived for Keynote Speakers, Subdivision Day
+              Contributors, and Student Volunteers. Please register by choosing
+              waived.
+            </li>
+          </ul>
+          To register go to
+          <a href="http://tx.ag/SMI21"> the registration link. </a>.
+          <p></p>
         </div>
+
+        <div align="center">
+          <a
+            href="http://tx.ag/SMI21"
+            class="btn btn-default"
+            role="button"
+            style="vertical-align: middle"
+            target="_blank"
+          >
+            <font color="darkred"> Register here!</font>
+          </a>
+        </div>
+      </div>
     </section>
 
     <section id="program">
-        <!-- <div class="container"> -->
-        <div class="row">
-            <!-- <div class="col-sm-1"></div> -->
-            <div class="col-sm-2"></div>
-            <!-- <div class="col-sm-9"> -->
-            <div class="col-sm-6">
-                <h2>SMI 2021 Program (TBD)</h2>
-                <!-- <img src="images/program.png" width="80%"> -->
-                <!-- <p>&nbsp;</p> -->
-                <!-- Program Start -->
-                <!-- <ul class="list-group row">
-            <li class='list-group-item'>
-              <h4>Monday, October 11<sup>th</sup></h4>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6">
+          <h2>
+            Tentative Program (Day <a href="#day1">1</a>, <a href="#day2">2</a>,
+            <a href="#day3">3</a>)
+          </h2>
+          <ul class="list-group row">
+            <li class="list-group-item">
+              <h3 id="day1">
+                <b>Sunday, Nov. 14<sup>th</sup>, Subdivision History Day</b>
+                (TBA)
+              </h3>
             </li>
 
-            <li class='list-group-item'>
-              <b>8:00-8:30 || Opening || Online </b>
-              <br>&nbsp;
-            </li>
-
-            <li class='list-group-item'>
-              <b>8:30-9:30 || Keynote #1 || Online</b>
-            </li>
-            <li class='list-group-item'>
-              &nbsp;&nbsp;Name <br>
-              <br>
-            </li>
-
-            <li class='list-group-item'>
-              <b>9:30-10:00 || Virtual Coffee Break || Online </b>
-              <br>&nbsp;
-            </li>
-
-            <li class='list-group-item'>
-              <b>10:00-11:30 ||  Sollicitudin Neque (Chair: Erat Sed)  || Online</b>
-            </li>
-            <li class='list-group-item'>
-              &nbsp;&nbsp;Donec id tellus laoreet, placerat erat sed, sollicitudin neque<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-             <li class='list-group-item'>
-              &nbsp;&nbsp;Donec pretium augue ut urna vestibulum, nec rutrum ex venenatis.<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-             <li class='list-group-item'>
-              &nbsp;&nbsp;Fusce dignissim dui at accumsan imperdiet<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-
-	<li class='list-group-item'>
-              <b>11:30-12:00 || Virtual Lunch Break || Online </b>
-              <br>&nbsp;
-            </li>
-
-	   <li class='list-group-item'>
-              <b>12:00-13:30 ||  Sollicitudin Neque (Chair: Erat Sed)  || Online</b>
-            </li>
-            <li class='list-group-item'>
-              &nbsp;&nbsp;Donec id tellus laoreet, placerat erat sed, sollicitudin neque<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-             <li class='list-group-item'>
-              &nbsp;&nbsp;Donec pretium augue ut urna vestibulum, nec rutrum ex venenatis.<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-             <li class='list-group-item'>
-              &nbsp;&nbsp;Fusce dignissim dui at accumsan imperdiet<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-
-		<li class='list-group-item'>
-              <b>13:30-14:00 || Virtual Coffee Break || Online </b>
-              <br>&nbsp;
-            </li>
-
- 		<li class='list-group-item'>
-              <b>14:00-15:30 || Poster Fast Forward and Public Display || Online</b>
-              <br>&nbsp;
-            </li>
-
-            <li class='list-group-item'>
-              <b>15:30-17:30 || Group Chat - Virtual Dinner || Online</b>
-            </li>
-
-            <li class='list-group-item'>
-            <h4>Tuesday, October 12<sup>th</sup></h4>
-
-            <li class='list-group-item'>
-              <b>8:00-8:30 || Virtual Coffee Break || Online</b>
-              <br>&nbsp;
-            </li>
-
-		<li class='list-group-item'>
-              <b>8:30-9:30 || Keynote #2 || Online</b>
-            </li>
-            <li class='list-group-item'>
-              &nbsp;&nbsp;Name<br>
-              <i>&nbsp;&nbsp;Name (Chair: Name)</i>
-              <br><br>
-            </li>
-
-		<li class='list-group-item'>
-              <b>9:30-10:00 || Virtual Coffee Break || Online</b>
-              <br>&nbsp;
-            </li>
-
-            <li class='list-group-item'>
-              <b>10:00-11:30 || Iaculis Nisi (Chair: Ornare Erat)  || Online</b>
-            </li>
-           <li class='list-group-item'>
-              &nbsp;&nbsp;Etiam ornare erat nec tortor consequat, sit amet iaculis nisi accumsan<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-             <li class='list-group-item'>
-              &nbsp;&nbsp;Integer quis nisi consectetur, pellentesque quam sit amet, eleifend nisi<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-	    <li class='list-group-item'>
-              &nbsp;&nbsp;Integer quis nisi consectetur, pellentesque quam sit amet, eleifend nisi<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-
-
-            <li class='list-group-item'>
-              <b>11:30-12:00 || Virtual Coffee Break || Online</b>
-              <br>&nbsp;
-            </li>
-
-            <li class='list-group-item'>
-              <b>12:00-13:30 ||  Euismod Lorem (Chair: Lacinia Mauris)  || Online</b>
-            </li>
-           <li class='list-group-item'>
-              &nbsp;&nbsp;Sed ac nulla luctus, hendrerit elit ut, euismod lorem<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-             <li class='list-group-item'>
-              &nbsp;&nbsp;Curabitur lacinia mauris id elit scelerisque porta<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-	   <li class='list-group-item'>
-              &nbsp;&nbsp;Vivamus pellentesque mi sit amet tincidunt lobortis.<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-
-            <li class='list-group-item'>
-              <b>13:30-14:00 || Virtual Lunch Break || Online</b>
-              <br>&nbsp;
-            </li>
-
-
-
-            <li class='list-group-item'>
-              <b>14:00-15:30 || Aliquam Purus (Chair: Urna Porta)  || Online</b>
-            </li>
-           <li class='list-group-item'>
-              &nbsp;&nbsp;Donec vulputate dui at urna porta vestibulum.<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-             <li class='list-group-item'>
-              &nbsp;&nbsp;Praesent in leo suscipit, mollis nunc eu, aliquam purus<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-	           <li class='list-group-item'>
-              &nbsp;&nbsp;Duis et sem non tellus faucibus vestibulum<br>
-              <i>&nbsp;&nbsp;Author 1; Author 2; Author 3.</i>
-              <br><br>
-            </li>
-
-            <li class='list-group-item'>
-              <b>15:30-16:00 || Virtual Coffee Break || Online</b>
-              <br>&nbsp;
-            </li>
-
-
-	<li class='list-group-item'>
-              <b>16:00-17:00 || Kunii Award Winner Talk || Online</b>
-            </li>
-            <li class='list-group-item'>
-              &nbsp;&nbsp;Name<br>
-              <i>&nbsp;&nbsp;Name (Chair: Name)</i>
-              <br><br>
-            </li>
-
-
-
-          </ul> -->
-                <!-- <p style="font-size:14px;">
-                  *  invited CAG 2017 paper<br/>
-                  **  invited TVCG 2018 paper<br/>
-            </p> -->
+            <div class="row">
+              <div class="col-sm-8">
+                <hr />
+                &nbsp;
+              </div>
             </div>
 
-            <div class="col-sm-2"></div>
+            <li class="list-group-item">
+              <h3 id="day2">
+                <b>Monday, Nov. 15<sup>th</sup></b>
+              </h3>
+            </li>
+
+            <li class="list-group-item">
+              <b>08:00-08:45 (UTC-4) || Keynote #1 </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp;Title: TBD<br />
+              <i>&nbsp;&nbsp;Siddhartha Chaudhuri</i>
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              <b
+                >08:45-09:45 (UTC-4) || Session I: Modeling & Reconstruction
+              </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp; Real-time Skeletonization for Sketch-based
+              Modeling<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp; Accurate Floorplan Reconstruction Using Geometric
+              Priors
+              <br />
+              <i>&nbsp;&nbsp;Ruifan Cai, Honglin Li, Jun Xie, Xiaogang Jin</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Enhanced Narrow Band Surface Reconstruction with
+              Anisotropic Kernel<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              <b
+                >09:45-10:00 (UTC-4) || Virtual Coffee Break & Free
+                Discussion</b
+              >
+              <br />&nbsp;
+              <i>Theme: TBD </i>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              <b>10:00-10:45 (UTC-4) || Keynote #2 </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp;Title: TBD<br />
+              <i>&nbsp;&nbsp;MÉLINA SKOURAS</i>
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              <b
+                >10:45-11:45 (UTC-4) || Session II: Learning-based
+                Reconstruction
+              </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp;Learning Modified Indicator Functions for Surface
+              Reconstruction<br />
+              <i> &nbsp;&nbsp;Dong Xiao, Siyou Lin, Zuoqiang Shi, Bin Wang </i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Learning Persistent Homology of 3D Point Clouds<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Unsupervised Recursive Deep Fitting 3D Primitives to
+              Points<br />
+              <i>&nbsp;&nbsp; Tsahi Saporta, Andrei Sharf </i>
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              <b
+                >11:45-12:00 (UTC-4) || Virtual Coffee Break & Free Discussion
+              </b>
+              <br />&nbsp;
+              <i>Theme: TBD </i>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              <b>12:00-12:15 (UTC-4) || Virtual Award Ceremony </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              <b
+                >12:15-13:15 (UTC-4) || Session III: Registration & Animation
+              </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp; Hierarchical mesh-to-points as-rigid-as-possible
+              registration<br />
+              <i>
+                &nbsp;&nbsp;Pierre Bourquat, Guillaume Damiand, David
+                Coeurjolly, Florent Dupont
+              </i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp; As-rigid-as-possible Volume tracking for Time-varying
+              Surfaces<br />
+              <i>
+                &nbsp;&nbsp;Jan Dvořák, Zuzana Káčereková, Petr Vaněček, Lukáš
+                Hruda, Libor Vasa
+              </i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Automatic shape adjustment at joints for the Implicit
+              Skinning<br />
+              <i>
+                &nbsp;&nbsp;Olivier Hachette, Florian Canezin, Rodolphe
+                Vaillant, Nicolas Mellado, Loïc Barthe
+              </i>
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              <b
+                >13:15-13:30 (UTC-4) || Virtual Coffee Break & Free Discussion
+              </b>
+              <br />&nbsp;
+              <i>Theme: TBD </i>
+              <br />&nbsp;
+            </li>
+
+            <div class="row">
+              <div class="col-sm-8">
+                <hr />
+                &nbsp;
+              </div>
+            </div>
+
+            <li class="list-group-item">
+              <h3 id="day3">
+                <b>Tuesday, Nov. 16<sup>th</sup></b>
+              </h3>
+            </li>
+
+            <li class="list-group-item">
+              <b>08:00-08:30 (UTC-4) || Keynote #3 </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp;TBD<br />
+              <i>&nbsp;&nbsp;Bianca Falcidieno</i>
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              <b>08:30-09:30 (UTC-4) || Session IV: Synthesis and Surfaces </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp;Synthesis of 3D jigsaw puzzles, korea<br />
+              <i>&nbsp;&nbsp;Gershon Elber, Myung-Soo Kim</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;A multigrid approach for harmonic measured foliations,
+              china<br />
+              <i>
+                &nbsp;&nbsp;Shaodong Wang, Shuai Ma, Hui Zhao, Wencheng Wang
+              </i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Projection-based Classification of Surfaces for 3D
+              Human Mesh Sequence Retrieval<br />
+              <i
+                >&nbsp;&nbsp;Emery Pierson, Juan-Carlos Alvarez-Paiva, Mohamed
+                Daoudi</i
+              >
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              <b
+                >09:30-09:45 (UTC-4) || Virtual Coffee Break & Free Discussion
+              </b>
+              <br />&nbsp;
+              <i>Theme: TBD </i>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              <b>09:45-10:30 (UTC-4) || Keynote #4 </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp;Computational Geometry for Morphing Matter Design
+              <br />
+              <i>&nbsp;&nbsp;Lining Yao</i>
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              <b
+                >10:30-11:10 (UTC-4) || Session V: Reconstruction &
+                Representation</b
+              >
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp;Extracting datums to reconstruct CSG Models from 2D
+              engineering sketches of polyhedral shapes<br />
+              <i>
+                &nbsp;&nbsp;Raquel Plumed, Peter Ashley Clifford Varley, Pedro
+                Company, Ralph Martin
+              </i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;An Improved Refinement Rule for Multi-sided Faces<br />
+              <i> &nbsp;&nbsp;Kestutis Karciauskas, Jörg Peters </i>
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              <b>11:10-13:10 (UTC-4) || FASE Paper Session </b>
+              <br />&nbsp;
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp;Title<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Title<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Title<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Title<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Title<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+
+            <li class="list-group-item">
+              &nbsp;&nbsp;Title<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              &nbsp;&nbsp;Title<br />
+              <i>&nbsp;&nbsp;Authors</i>
+              <br /><br />
+            </li>
+            <li class="list-group-item">
+              <b
+                >13:10-13:25 (UTC-4) || Virtual Coffee Break & Free Discussion
+              </b>
+              <br />&nbsp;
+              <i>Theme: TBD </i>
+              <br />&nbsp;
+            </li>
+            <li class="list-group-item">
+              <b>13:25-13:55 (UTC-4) || Best paper awards & Ending </b>
+              <br />&nbsp;
+            </li>
+          </ul>
         </div>
-        <!-- </div> -->
+      </div>
     </section>
 
     <section id="keynote">
-        <div class="container">
-            <h2 class="heading">Keynote Speakers </h2>
-            <div class="row">
-
-                <div class="col-sm-3">
-                    <img class="img-responsive" src="images/speakers/sid.jpg" alt="Name" width="250" height="250" />
-                    <h4><a href="https://www.cse.iitb.ac.in/~sidch/">Siddhartha Chaudhuri</a></h4>
-                    <h4>Adobe Research and IIT Bombay, India</h4>
-                </div>
-
-                <div class="col-sm-5">
-                    <p><b>Bio:</b>
-                        Siddhartha Chaudhuri is a Senior Research Scientist in the Creative Intelligence Lab at Adobe
-                        Research,
-                        and an Assistant Professor (on extended leave) of Computer Science and Engineering at IIT
-                        Bombay.
-                        He obtained his Ph.D. from Stanford University, and his undergraduate degree from IIT Kanpur.
-                        He subsequently did postdoctoral research at Stanford and Princeton, and taught at Cornell.
-                        Siddhartha's work combines geometric analysis, machine learning, and UI innovation to make
-                        sophisticated 3D geometric modeling accessible even to non-expert users. He also studies
-                        foundational problems in geometry processing (retrieval, segmentation, correspondences) that
-                        arise from this pursuit. His research themes include assembly-based modeling,
-                        semantic attributes for design, generative neural networks for shapes,
-                        and other applications of deep learning to 3D geometry processing.
-                        He is the original author of the commercial 3D character modeling tool Adobe Fuse,
-                        and the author of the open-source Thea toolkit for geometric computing.
-                    </p>
-                </div>
-
-            </div>
-
-            <!-- <div class="row">
-          <div class="col-sm-8">
-            <h4><b>Title:</b>TBD</h4>
-            <p><b>Date:</b>11<sup>th</sup> October, 9:45-10:45</p>
-            <p><b>Abstract:</b>
-				TBD
-			</p>
+      <div class="container">
+        <h2 class="heading">Keynote Speakers</h2>
+        <div class="row">
+          <div class="col-sm-3">
+            <img
+              class="img-responsive"
+              src="images/speakers/sid.jpg"
+              alt="Name"
+              width="250"
+              height="250"
+            />
+            <h4>
+              <a href="https://www.cse.iitb.ac.in/~sidch/"
+                >Siddhartha Chaudhuri</a
+              >
+            </h4>
+            <h4>Adobe Research and IIT Bombay, India</h4>
           </div>
-        </div> -->
 
-            <div class="row">
-                <div class="col-sm-8">
-                    <hr />&nbsp;
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class="img-responsive" src="images/speakers/lining.jpg" alt="Name" width="250" height="250" />
-                    <h4><a href="https://www.morphingmatter.cs.cmu.edu/people/liningyao">Lining Yao</a></h4>
-                    <h4>Carnegie Mellon University, USA</h4>
-                </div>
-
-                <div class="col-sm-5">
-                    <p><b>Bio:</b>
-                        Lining Yao is an Assistant Professor of Human-Computer Interaction Institute at Carnegie Mellon
-                        University (CMU), School of Computer Science,
-                        directing the Morphing Matter Lab. Lining also holds courtesy appointments at Mechanical
-                        Engineering and Material Sciences and Engineering at CMU.
-                        Morphing Matter lab develops processes, materials, tools, and applications of adaptive, dynamic,
-                        and intelligent morphing matter from nano to macro scales.
-                        Research often combines material science, computational fabrication, and creative design
-                        practices. The mission is to advance both science and society with
-                        the design of morphing matter. Lining and her lab work anti-disciplinarily, publishing and
-                        exhibiting across science, engineering, design, and art.
-                        Lining gained her Ph.D. from the MIT Media Lab. She is a Wired UK fellow, CMU Provost's
-                        Inclusive Teaching Fellow, and a recipient of the NSF CAREER Award.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <!-- <div class="row">
-          <div class="col-sm-8">
-            <h4><b>Title:</b>Curabitur Auctor Posuere Leo Amet Finibus</h4>
-            <p><b>Date:</b>11<sup>th</sup> October, 9:45-10:45</p>
-            <p><b>Abstract:</b> Vestibulum ut diam nibh. In facilisis neque eget nunc tincidunt imperdiet. Donec consequat ex ut sem vulputate ornare. Curabitur in vestibulum mauris. Fusce vel consequat justo, quis interdum velit. Donec aliquet mi ligula, et efficitur ante fringilla quis. Quisque sodales erat sed elit vulputate, in tristique felis molestie. Nam pharetra, leo iaculis imperdiet suscipit, orci metus varius sem, nec tristique dui augue non nisi. Donec pharetra ipsum lectus, feugiat lacinia risus pharetra ut. Vestibulum pretium turpis nibh, at posuere ex cursus eget. Cras et neque fringilla mi mollis rhoncus. Maecenas a accumsan felis, nec sagittis massa. Mauris at sapien lacus. Duis eget volutpat neque, id lacinia nibh. Praesent non ipsum vel metus venenatis congue.</p>
+          <div class="col-sm-5">
+            <p>
+              <b>Bio:</b>
+              Siddhartha Chaudhuri is a Senior Research Scientist in the
+              Creative Intelligence Lab at Adobe Research, and an Assistant
+              Professor (on extended leave) of Computer Science and Engineering
+              at IIT Bombay. He obtained his Ph.D. from Stanford University, and
+              his undergraduate degree from IIT Kanpur. He subsequently did
+              postdoctoral research at Stanford and Princeton, and taught at
+              Cornell. Siddhartha's work combines geometric analysis, machine
+              learning, and UI innovation to make sophisticated 3D geometric
+              modeling accessible even to non-expert users. He also studies
+              foundational problems in geometry processing (retrieval,
+              segmentation, correspondences) that arise from this pursuit. His
+              research themes include assembly-based modeling, semantic
+              attributes for design, generative neural networks for shapes, and
+              other applications of deep learning to 3D geometry processing. He
+              is the original author of the commercial 3D character modeling
+              tool Adobe Fuse, and the author of the open-source Thea toolkit
+              for geometric computing.
+            </p>
           </div>
-        </div> -->
-
-            <div class="row">
-            <div class="col-sm-8">
-                <hr />&nbsp;
-            </div>
         </div>
 
         <div class="row">
-            <div class="col-sm-3">
-                <img class="img-responsive" src="images/speakers/melina.jpg" alt="Name" width="250" height="250" />
-                <h4><a href="http://imagine.inrialpes.fr/people/mskouras/">Mélina Skouras</a></h4>
-                <h4>Inria Grenoble Rhône-Alpes, France</h4>
-            </div>
-
-            <div class="col-sm-5">
-                <p><b>Bio:</b>
-                    Mélina Skouras is a permanent researcher in the ANIMA team at Inria Grenoble, France.
-                     Until October 2017, she was a postdoctoral associate at MIT where she worked with Prof. Wojciech Matusik 
-                     on the computational design of meta-materials. She obtained her PhD in 2014 from the Computer Graphics
-                      Laboratory of ETH Zurich, Switzerland, where she collaborated with Disney Research Zurich. Her thesis 
-                      focused on the development of novel algorithms for the design of custom deformable objects. 
-                      She received her Master's degree in Computer Science and Applied Mathematics from ENSIMAG, INP Grenoble, 
-                      France, in 2004. Before starting her PhD, she was a software developer at Dassault Systèmes, 
-                      in the CATIA Geometric Modeler team.
-                </p>
-
-            </div>
-
+          <div class="col-sm-8">
+            <h3 style="color: rgba(99, 2, 209, 0.918)"><b>Title: TBD</b></h3>
+            <p><b>Date:</b> 15<sup>th</sup> Nov, 08:00-08:45 am (EST)</p>
+            <p><b>Abstract:</b> TBD.</p>
+          </div>
         </div>
 
-            <!-- <div class="row">
-      <div class="col-sm-8">
-        <h4><b>Title:</b>Curabitur Auctor Posuere Leo Amet Finibus</h4>
-        <p><b>Date:</b>11<sup>th</sup> October, 9:45-10:45</p>
-        <p><b>Abstract:</b> Vestibulum ut diam nibh. In facilisis neque eget nunc tincidunt imperdiet. Donec consequat ex ut sem vulputate ornare. Curabitur in vestibulum mauris. Fusce vel consequat justo, quis interdum velit. Donec aliquet mi ligula, et efficitur ante fringilla quis. Quisque sodales erat sed elit vulputate, in tristique felis molestie. Nam pharetra, leo iaculis imperdiet suscipit, orci metus varius sem, nec tristique dui augue non nisi. Donec pharetra ipsum lectus, feugiat lacinia risus pharetra ut. Vestibulum pretium turpis nibh, at posuere ex cursus eget. Cras et neque fringilla mi mollis rhoncus. Maecenas a accumsan felis, nec sagittis massa. Mauris at sapien lacus. Duis eget volutpat neque, id lacinia nibh. Praesent non ipsum vel metus venenatis congue.</p>
+        <div class="row">
+          <div class="col-sm-8">
+            <hr />
+            &nbsp;
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            <img
+              class="img-responsive"
+              src="images/speakers/melina.jpg"
+              alt="Name"
+              width="250"
+              height="250"
+            />
+            <h4>
+              <a href="http://imagine.inrialpes.fr/people/mskouras/"
+                >Mélina Skouras</a
+              >
+            </h4>
+            <h4>Inria Grenoble Rhône-Alpes, France</h4>
+          </div>
+
+          <div class="col-sm-5">
+            <p>
+              <b>Bio:</b>
+              Mélina Skouras is a permanent researcher in the ANIMA team at
+              Inria Grenoble, France. Until October 2017, she was a postdoctoral
+              associate at MIT where she worked with Prof. Wojciech Matusik on
+              the computational design of meta-materials. She obtained her PhD
+              in 2014 from the Computer Graphics Laboratory of ETH Zurich,
+              Switzerland, where she collaborated with Disney Research Zurich.
+              Her thesis focused on the development of novel algorithms for the
+              design of custom deformable objects. She received her Master's
+              degree in Computer Science and Applied Mathematics from ENSIMAG,
+              INP Grenoble, France, in 2004. Before starting her PhD, she was a
+              software developer at Dassault Systèmes, in the CATIA Geometric
+              Modeler team.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <h3 style="color: rgba(99, 2, 209, 0.918)"><b>Title: TBD</b></h3>
+            <p><b>Date:</b> 15<sup>th</sup> Nov, 10:00-10:45 am (EST)</p>
+            <p><b>Abstract:</b> TBD.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <hr />
+            &nbsp;
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            <img
+              class="img-responsive"
+              src="http://pers.ge.imati.cnr.it/Falcidieno/bianca_falcidieno.JPG"
+              alt="Name"
+              width="250"
+              height="250"
+            />
+            <h4>
+              <a href="http://pers.ge.imati.cnr.it/Falcidieno/home.html"
+                >Bianca Falcidieno</a
+              >
+            </h4>
+            <h4>National Research Council, Italy.</h4>
+          </div>
+
+          <div class="col-sm-5">
+            <p>
+              <b>Bio:</b>
+              Bianca Falcidieno is a Research Director of the National Research
+              Council (CNR) of Italy. She has been leading and coordinating
+              research at international level in advanced and interdisciplinary
+              fields (such as computational mathematics, computer graphics,
+              multidimensional media and knowledge technologies), strongly
+              interacting with outstanding industrial and social application
+              fields: from industrial design and manufacturing to geographic
+              information systems, from semantic web to serious games. Author of
+              more than 200 scientific refereed papers and books, she is the
+              editor in chief of the International Journal of Shape Modelling
+              (World Scientific). She has been the coordinator of both the FP6
+              Network of Excellence AIM@SHAPE and the FP7 Coordination Action
+              FOCUS K3D. For the 80th CNR anniversary, she was included in the
+              12 top-level female researchers in the CNR history. In 2011 Bianca
+              Falcidieno was elected to a Fellowship of the EUROGRAPHICS
+              Association in recognition of her scientific contribution to the
+              advancement of Computer Graphics.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <h3 style="color: rgba(99, 2, 209, 0.918)"><b>Title: TBD</b></h3>
+            <p><b>Date:</b> 16<sup>th</sup> Nov, 08:00-08:30 am (EST)</p>
+            <p><b>Abstract:</b> TBD.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <hr />
+            &nbsp;
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            <img
+              class="img-responsive"
+              src="images/speakers/lining2.jpg"
+              alt="Name"
+              width="250"
+              height="250"
+            />
+            <h4>
+              <a href="https://www.morphingmatter.cs.cmu.edu/people/liningyao"
+                >Lining Yao</a
+              >
+            </h4>
+            <h4>Carnegie Mellon University, USA</h4>
+          </div>
+
+          <div class="col-sm-5">
+            <p>
+              <b>Bio:</b>
+              Lining Yao is an Assistant Professor of Human-Computer Interaction
+              Institute at Carnegie Mellon University (CMU), School of Computer
+              Science, directing the Morphing Matter Lab. Lining also holds
+              courtesy appointments at Mechanical Engineering and Material
+              Sciences and Engineering at CMU. Morphing Matter lab develops
+              processes, materials, tools, and applications of adaptive,
+              dynamic, and intelligent morphing matter from nano to macro
+              scales. Research often combines material science, computational
+              fabrication, and creative design practices. The mission is to
+              advance both science and society with the design of morphing
+              matter. Lining and her lab work anti-disciplinarily, publishing
+              and exhibiting across science, engineering, design, and art.
+              Lining gained her Ph.D. from the MIT Media Lab. She is a Wired UK
+              fellow, CMU Provost's Inclusive Teaching Fellow, and a recipient
+              of the NSF CAREER Award.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <h3 style="color: rgba(99, 2, 209, 0.918)">
+              <b>Title: Computational Geometry for Morphing Matter Design</b>
+            </h3>
+            <p><b>Date:</b> 16<sup>th</sup> Nov, 09:45-10:45 am (EST)</p>
+            <p>
+              <b>Abstract:</b> Morphing Matter is an interplay of geometry and
+              hidden forces. Lining Yao, the director of Morphing Matter Lab,
+              will share her team's experiences of computing, designing, and
+              fabricating morphing mechanisms that leverage both geometrical and
+              physical knowledge of materials. Lining will unfold a few
+              marriages of geometries and forces in the talk: a conformal map
+              interconnecting beams shrinking and fighting for the lowest
+              entropy, a frustum-shaped groove interfering disks swelling with
+              differential diffusion rate, and a triangulated filler path
+              affecting spacer fabric deforming with biased shear forces. Novel
+              morphing mechanisms and applications also come from these
+              marriages, such as self-assembling furniture, crawling soft
+              robots, and morphing pasta.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-8">
+            <hr />
+            &nbsp;
+          </div>
+        </div>
+
+        <div class="col-sm-2"></div>
       </div>
-    </div> -->
-
-            <div class="row">
-                <div class="col-sm-8">
-                    <hr />&nbsp;
-                </div>
-            </div>
-            <div class="col-sm-2"></div>
-        </div>
     </section>
 
     <section id="event">
-        <div class="container">
-            <h2 class="heading">SMI 2021 Conference Chairs</h2>
-            <div class="row">
-                <div class="col-sm-12 col-md-9">
-                    <!-- <div id="event-carousel" class="carousel slide" data-interval="false"> -->
-                    <div class="item active">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="single-event">
-                                    <img class="img-responsive" src="images/chairs/ErgunAkleman.png"
-                                        alt="Ergun Akleman">
-                                    <h4><a href="http://people.tamu.edu/~ergun/">Ergun Akleman</a>
-                                        <a href="mailto:ergun.akleman@gmail@@com?subject=[SMI2021]"
-                                            onmouseover="this.href=this.href.replace('@@','.')">
-                                            📧
-                                        </a>
-                                    </h4>
-                                    <h5>Texas A&amp;M University, USA</h5>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <div class="single-event">
-                                    <img class="img-responsive" src="images/chairs/StefanieHahmann.png"
-                                        alt="Stefanie Hahmann">
-                                    <h4><a href="https://team.inria.fr/anima/team-members/stefanie-hahmann/">Stefanie
-                                            Hahmann</a>
-                                        <a href="mailto:stefanie.hahmann@inria@@fr?subject=[SMI2021]"
-                                            onmouseover="this.href=this.href.replace('@@','.')">
-                                            📧
-                                        </a>
-                                    </h4>
-                                    <h5>University of Grenoble, France</h5>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-3">
-                                <div class="single-event">
-                                    <img class="img-responsive" src="images/chairs/JorgPeters.png" alt="Jorg Peters">
-                                    <h4><a href="https://www.cise.ufl.edu/~jorg/">Jorg Peters</a>
-                                        <a href="mailto:jorg.peters@gmail@@com?subject=[SMI2021]"
-                                            onmouseover="this.href=this.href.replace('@@','.')">
-                                            📧
-                                        </a>
-                                    </h4>
-                                    <h5>University of Florida, USA</h5>
-                                </div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                    <!-- </div> -->
+      <div class="container">
+        <h2 class="heading">SMI 2021 Conference Chairs</h2>
+        <div class="row">
+          <div class="col-sm-12 col-md-9">
+            <!-- <div id="event-carousel" class="carousel slide" data-interval="false"> -->
+            <div class="item active">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="single-event">
+                    <img
+                      class="img-responsive"
+                      src="images/chairs/ErgunAkleman.png"
+                      alt="Ergun Akleman"
+                    />
+                    <h4>
+                      <a href="http://people.tamu.edu/~ergun/">Ergun Akleman</a>
+                      <a
+                        href="mailto:ergun.akleman@gmail@@com?subject=[SMI2021]"
+                        onmouseover="this.href=this.href.replace('@@','.')"
+                      >
+                        📧
+                      </a>
+                    </h4>
+                    <h5>Texas A&amp;M University, USA</h5>
+                  </div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="col-sm-12 col-md-9">
-                    <!-- <div id="event-carousel" class="carousel slide" data-interval="false"> -->
-                    <h2 class="heading">SMI 2021 Technical Paper Chairs</h2>
-                    <div class="item">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <div class="single-event">
-                                    <img class="img-responsive" src="images/chairs/SilviaBiasotti.png"
-                                        alt="Silvia Biasotti">
-                                    <h4><a href="https://imati.cnr.it/mypage.php?idk=PG-67">Silvia Biasotti</a>
-                                        <a href="mailto:silvia.biasotti@ge.imati.cnr@@it?subject=[SMI2021]"
-                                            onmouseover="this.href=this.href.replace('@@','.')">
-                                            📧
-                                        </a>
-                                    </h4>
-                                    <h5>CNR-IMATI, Italy</h5>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="single-event">
-                                    <img class="img-responsive" src="images/chairs/YangLiu.png" alt="Yang Liu">
-                                    <h4><a href="https://xueyuhanlang.github.io/">Yang Liu</a>
-                                        <a href="mailto:yangliu@microsoft@@com?subject=[SMI2021]"
-                                            onmouseover="this.href=this.href.replace('@@','.')">
-                                            📧
-                                        </a>
-                                    </h4>
-                                    <h5>Microsoft Research Asia, China</h5>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="single-event">
-                                    <img class="img-responsive" src="images/chairs/BoZhu.jpg" alt="Bo Zhu">
-                                    <h4><a href="https://cs.dartmouth.edu/~bozhu/">Bo Zhu</a>
-                                        <a href="mailto:bo.zhu@dartmouth@@edu?subject=[SMI2021]"
-                                            onmouseover="this.href=this.href.replace('@@','.')">
-                                            📧
-                                        </a>
-                                    </h4>
-                                    <h5>Dartmouth College, USA</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- </div> -->
+                <div class="col-sm-3">
+                  <div class="single-event">
+                    <img
+                      class="img-responsive"
+                      src="images/chairs/StefanieHahmann.png"
+                      alt="Stefanie Hahmann"
+                    />
+                    <h4>
+                      <a
+                        href="https://team.inria.fr/anima/team-members/stefanie-hahmann/"
+                        >Stefanie Hahmann</a
+                      >
+                      <a
+                        href="mailto:stefanie.hahmann@inria@@fr?subject=[SMI2021]"
+                        onmouseover="this.href=this.href.replace('@@','.')"
+                      >
+                        📧
+                      </a>
+                    </h4>
+                    <h5>University of Grenoble, France</h5>
+                  </div>
                 </div>
-            </div>
 
-            <div>
-                <h2 class="heading">International Program Committee
-                </h2>
+                <div class="col-sm-3">
+                  <div class="single-event">
+                    <img
+                      class="img-responsive"
+                      src="images/chairs/JorgPeters.png"
+                      alt="Jorg Peters"
+                    />
+                    <h4>
+                      <a href="https://www.cise.ufl.edu/~jorg/">Jorg Peters</a>
+                      <a
+                        href="mailto:jorg.peters@gmail@@com?subject=[SMI2021]"
+                        onmouseover="this.href=this.href.replace('@@','.')"
+                      >
+                        📧
+                      </a>
+                    </h4>
+                    <h5>University of Florida, USA</h5>
+                  </div>
+                </div>
+              </div>
             </div>
-            <ul class="list-group row">
-                <li class='list-group-item col-xs-6'>Marco Attene (CNR-IMATI)</li>
-                <li class='list-group-item col-xs-6'>Melinos Averkiou (University of Cyprus)</li>
-                <li class='list-group-item col-xs-6'>Gill Barequet (Technion Israel Institute of Technology)</li>
-                <li class='list-group-item col-xs-6'>Loic Barthe (Université de Toulouse)</li>
-                <li class='list-group-item col-xs-6'>Alexander Belyaev (Heriot-Watt University)</li>
-                <li class='list-group-item col-xs-6'>David Bommes (University of Bern)</li>
-                <li class='list-group-item col-xs-6'>Georges-Pierre Bonneau (University Grenoble Alpes)</li>
-                <li class='list-group-item col-xs-6'>Marcel Campen (Osnabrück University)</li>
-                <li class='list-group-item col-xs-6'>Raphaelle Chaine (Université of Lyon)</li>
-                <li class='list-group-item col-xs-6'>Zhonggui Chen (Xiameng University)</li>
-                <li class='list-group-item col-xs-6'>Edward Chien (MIT)</li>
-                <li class='list-group-item col-xs-6'>Tao Du (MIT)</li>
-                <li class='list-group-item col-xs-6'>Jeremie Dumas (New York University)</li>
-                <li class='list-group-item col-xs-6'>Ye Duan (University of Missouri)</li>
-                <li class='list-group-item col-xs-6'>Anastasia Dubrovina (Lyft)</li>
-                <li class='list-group-item col-xs-6'>Gershon Elber (Technion Israel Institute of Technology)</li>
-                <li class='list-group-item col-xs-6'>Bianca Falcidieno (CNR-IMATI)</li>
-                <li class='list-group-item col-xs-6'>Leila De Floriani (University of Maryland)</li>
-                <li class='list-group-item col-xs-6'>Hongbo Fu (City University of Hong Kong)</li>
-                <li class='list-group-item col-xs-6'>Eric Galin (University of Lyon)</li>
-                <li class='list-group-item col-xs-6'>Xifeng Gao (Florida State University)</li>
-                <li class='list-group-item col-xs-6'>Yotam Gingold (George Mason University)</li>
-                <li class='list-group-item col-xs-6'>Daniela Giorgi (ISTI-CNR)</li>
-                <li class='list-group-item col-xs-6'>Eric Guerin ( INSA de Lyon)</li>
-                <li class='list-group-item col-xs-6'>Xiaoguang Han (The Chinese University of Hong Kong)</li>
-                <li class='list-group-item col-xs-6'>Franck Hetroy-Wheeler (University of Strasbourg)</li>
-                <li class='list-group-item col-xs-6'>Klaus Hildebrandt (TU Delft)</li>
-                <li class='list-group-item col-xs-6'>Haibin Huang (Kwai Inc.)</li>
-                <li class='list-group-item col-xs-6'>Qixing Huang (UT Austin)</li>
-                <li class='list-group-item col-xs-6'>Hui Huang (Shenzhen University)</li>
-                <li class='list-group-item col-xs-6'>Bert Jüttler (Johannes Kepler University)</li>
-                <li class='list-group-item col-xs-6'>Takashi Kanai (University of Tokyo)</li>
-                <li class='list-group-item col-xs-6'>Myung-Soo Kim (Seoul National University)</li>
-                <li class='list-group-item col-xs-6'>Hamid Laga (Murdoch University)</li>
-                <li class='list-group-item col-xs-6'>Xin Li (Louisiana State University)</li>
-                <li class='list-group-item col-xs-6'>Peter Lindstrom (Lawrence Livermore National Laboratory)</li>
-                <li class='list-group-item col-xs-6'>Hsueh-Ti Derek Liu (University of Toronto)</li>
-                <li class='list-group-item col-xs-6'>Ligang Liu (University of Science and Technology of China)</li>
-                <li class='list-group-item col-xs-6'>Yongjin Liu (Tsinghua University)</li>
-                <li class='list-group-item col-xs-6'>Lin Lu (Shandong University)</li>
-                <li class='list-group-item col-xs-6'>Chongyang Ma (Kuaishou Technology)</li>
-                <li class='list-group-item col-xs-6'>Luigi Malomo (ISTI-CNR)</li>
-                <li class='list-group-item col-xs-6'>Martin Marinov (Autodesk)</li>
-                <li class='list-group-item col-xs-6'>Geraldine Morin (University Toulouse)</li>
-                <li class='list-group-item col-xs-6'>Ramanathan Muthuganapathy (Indian Institute of Technology Madras)
-                </li>
-                <li class='list-group-item col-xs-6'>Ahmad Nasri (Boulder Graphics LLC)</li>
-                <li class='list-group-item col-xs-6'>Yutaka Ohtake (University of Tokyo)</li>
-                <li class='list-group-item col-xs-6'>Julian Panetta (University of California, Davis)</li>
-                <li class='list-group-item col-xs-6'>Amal Dev Parakkat (Indian Institute of Technology Guwahati)</li>
-                <li class='list-group-item col-xs-6'>Giuseppe Patanè (CNR-IMATI)</li>
-                <li class='list-group-item col-xs-6'>Nico Pietroni (University Of Technology Sydney)</li>
-                <li class='list-group-item col-xs-6'>Konrad Polthier (Freie Universitat Berlin)</li>
-                <li class='list-group-item col-xs-6'>Hong Qin (Stony Brook University)</li>
-                <li class='list-group-item col-xs-6'>Damien Rohmer (Ecole Polytechnique, Paris)</li>
-                <li class='list-group-item col-xs-6'>Camille Schreck(INRIA Nancy)</li>
-                <li class='list-group-item col-xs-6'>Carlo Sequin (UC Berkeley)</li>
-                <li class='list-group-item col-xs-6'>Mélina Skouras (INRIA Grenoble)</li>
-                <li class='list-group-item col-xs-6'>Justin Solomon (MIT)</li>
-                <li class='list-group-item col-xs-6'>Michela Spagnuolo (CNR-IMATI)</li>
-                <li class='list-group-item col-xs-6'>Daniel Thalmann (Swiss Federal Institute of Technology)</li>
-                <li class='list-group-item col-xs-6'>Nobuyuki Umetani (University of Tokyo)</li>
-                <li class='list-group-item col-xs-6'>Georg Umlauf (HTWG Konstanz)</li>
-                <li class='list-group-item col-xs-6'>Amir Vaxman (Utrecht University)</li>
-                <li class='list-group-item col-xs-6'>Remco Veltkamp (Utrecht University)</li>
-                <li class='list-group-item col-xs-6'>Wenping Wang (University of Hong Kong)</li>
-                <li class='list-group-item col-xs-6'>Yu Wang (MIT)</li>
-                <li class='list-group-item col-xs-6'>Pengshuai Wang (Microsoft Research Asia)</li>
-                <li class='list-group-item col-xs-6'>Kui Wu (Tencent North America)</li>
-                <li class='list-group-item col-xs-6'>Kai Xu (National University of Defense Technology)</li>
-                <li class='list-group-item col-xs-6'>Cedric Zanni ( University of Lorraine, LORIA)</li>
-                <li class='list-group-item col-xs-6'>Juyong Zhang (University of Science and Technology of China)</li>
-                <li class='list-group-item col-xs-6'>Xiaoting Zhang (Boston University)</li>
-
-            </ul>
+            <!-- </div> -->
+          </div>
         </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-9">
+            <!-- <div id="event-carousel" class="carousel slide" data-interval="false"> -->
+            <h2 class="heading">SMI 2021 Technical Paper Chairs</h2>
+            <div class="item">
+              <div class="row">
+                <div class="col-sm-3">
+                  <div class="single-event">
+                    <img
+                      class="img-responsive"
+                      src="images/chairs/SilviaBiasotti.png"
+                      alt="Silvia Biasotti"
+                    />
+                    <h4>
+                      <a href="https://imati.cnr.it/mypage.php?idk=PG-67"
+                        >Silvia Biasotti</a
+                      >
+                      <a
+                        href="mailto:silvia.biasotti@ge.imati.cnr@@it?subject=[SMI2021]"
+                        onmouseover="this.href=this.href.replace('@@','.')"
+                      >
+                        📧
+                      </a>
+                    </h4>
+                    <h5>CNR-IMATI, Italy</h5>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="single-event">
+                    <img
+                      class="img-responsive"
+                      src="images/chairs/YangLiu.png"
+                      alt="Yang Liu"
+                    />
+                    <h4>
+                      <a href="https://xueyuhanlang.github.io/">Yang Liu</a>
+                      <a
+                        href="mailto:yangliu@microsoft@@com?subject=[SMI2021]"
+                        onmouseover="this.href=this.href.replace('@@','.')"
+                      >
+                        📧
+                      </a>
+                    </h4>
+                    <h5>Microsoft Research Asia, China</h5>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="single-event">
+                    <img
+                      class="img-responsive"
+                      src="images/chairs/BoZhu.jpg"
+                      alt="Bo Zhu"
+                    />
+                    <h4>
+                      <a href="https://cs.dartmouth.edu/~bozhu/">Bo Zhu</a>
+                      <a
+                        href="mailto:bo.zhu@dartmouth@@edu?subject=[SMI2021]"
+                        onmouseover="this.href=this.href.replace('@@','.')"
+                      >
+                        📧
+                      </a>
+                    </h4>
+                    <h5>Dartmouth College, USA</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+
+        <div>
+          <h2 class="heading">International Program Committee</h2>
+        </div>
+        <ul class="list-group row">
+          <li class="list-group-item col-xs-6">Marco Attene (CNR-IMATI)</li>
+          <li class="list-group-item col-xs-6">
+            Melinos Averkiou (University of Cyprus)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Gill Barequet (Technion Israel Institute of Technology)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Loic Barthe (Université de Toulouse)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Alexander Belyaev (Heriot-Watt University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            David Bommes (University of Bern)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Georges-Pierre Bonneau (University Grenoble Alpes)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Marcel Campen (Osnabrück University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Raphaelle Chaine (Université of Lyon)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Zhonggui Chen (Xiameng University)
+          </li>
+          <li class="list-group-item col-xs-6">Edward Chien (MIT)</li>
+          <li class="list-group-item col-xs-6">Tao Du (MIT)</li>
+          <li class="list-group-item col-xs-6">
+            Jeremie Dumas (New York University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Ye Duan (University of Missouri)
+          </li>
+          <li class="list-group-item col-xs-6">Anastasia Dubrovina (Lyft)</li>
+          <li class="list-group-item col-xs-6">
+            Gershon Elber (Technion Israel Institute of Technology)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Bianca Falcidieno (CNR-IMATI)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Leila De Floriani (University of Maryland)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Hongbo Fu (City University of Hong Kong)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Eric Galin (University of Lyon)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Xifeng Gao (Florida State University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Yotam Gingold (George Mason University)
+          </li>
+          <li class="list-group-item col-xs-6">Daniela Giorgi (ISTI-CNR)</li>
+          <li class="list-group-item col-xs-6">Eric Guerin ( INSA de Lyon)</li>
+          <li class="list-group-item col-xs-6">
+            Xiaoguang Han (The Chinese University of Hong Kong)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Franck Hetroy-Wheeler (University of Strasbourg)
+          </li>
+          <li class="list-group-item col-xs-6">Klaus Hildebrandt (TU Delft)</li>
+          <li class="list-group-item col-xs-6">Haibin Huang (Kwai Inc.)</li>
+          <li class="list-group-item col-xs-6">Qixing Huang (UT Austin)</li>
+          <li class="list-group-item col-xs-6">
+            Hui Huang (Shenzhen University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Bert Jüttler (Johannes Kepler University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Takashi Kanai (University of Tokyo)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Myung-Soo Kim (Seoul National University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Hamid Laga (Murdoch University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Xin Li (Louisiana State University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Peter Lindstrom (Lawrence Livermore National Laboratory)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Hsueh-Ti Derek Liu (University of Toronto)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Ligang Liu (University of Science and Technology of China)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Yongjin Liu (Tsinghua University)
+          </li>
+          <li class="list-group-item col-xs-6">Lin Lu (Shandong University)</li>
+          <li class="list-group-item col-xs-6">
+            Chongyang Ma (Kuaishou Technology)
+          </li>
+          <li class="list-group-item col-xs-6">Luigi Malomo (ISTI-CNR)</li>
+          <li class="list-group-item col-xs-6">Martin Marinov (Autodesk)</li>
+          <li class="list-group-item col-xs-6">
+            Geraldine Morin (University Toulouse)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Ramanathan Muthuganapathy (Indian Institute of Technology Madras)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Ahmad Nasri (Boulder Graphics LLC)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Yutaka Ohtake (University of Tokyo)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Julian Panetta (University of California, Davis)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Amal Dev Parakkat (Indian Institute of Technology Guwahati)
+          </li>
+          <li class="list-group-item col-xs-6">Giuseppe Patanè (CNR-IMATI)</li>
+          <li class="list-group-item col-xs-6">
+            Nico Pietroni (University Of Technology Sydney)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Konrad Polthier (Freie Universitat Berlin)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Hong Qin (Stony Brook University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Damien Rohmer (Ecole Polytechnique, Paris)
+          </li>
+          <li class="list-group-item col-xs-6">Camille Schreck(INRIA Nancy)</li>
+          <li class="list-group-item col-xs-6">Carlo Sequin (UC Berkeley)</li>
+          <li class="list-group-item col-xs-6">
+            Mélina Skouras (INRIA Grenoble)
+          </li>
+          <li class="list-group-item col-xs-6">Justin Solomon (MIT)</li>
+          <li class="list-group-item col-xs-6">
+            Michela Spagnuolo (CNR-IMATI)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Daniel Thalmann (Swiss Federal Institute of Technology)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Nobuyuki Umetani (University of Tokyo)
+          </li>
+          <li class="list-group-item col-xs-6">Georg Umlauf (HTWG Konstanz)</li>
+          <li class="list-group-item col-xs-6">
+            Amir Vaxman (Utrecht University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Remco Veltkamp (Utrecht University)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Wenping Wang (University of Hong Kong)
+          </li>
+          <li class="list-group-item col-xs-6">Yu Wang (MIT)</li>
+          <li class="list-group-item col-xs-6">
+            Pengshuai Wang (Microsoft Research Asia)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Kui Wu (Tencent North America)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Kai Xu (National University of Defense Technology)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Cedric Zanni ( University of Lorraine, LORIA)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Juyong Zhang (University of Science and Technology of China)
+          </li>
+          <li class="list-group-item col-xs-6">
+            Xiaoting Zhang (Boston University)
+          </li>
+        </ul>
+      </div>
     </section>
-
-
 
     <section id="past">
-        <div class="container">
-            <h2 class="heading">Previous conferences</h2>
-            <div class="col-sm-6">
-                <h4><a href="https://smi2020.sciencesconf.org/">SMI 2020</a> - virtual conference [<a
-                        href="https://www.sciencedirect.com/journal/computers-and-graphics/special-issue/108JQQ472DJ">proceedings</a>]
-                </h4>
-                <h4><a href="https://smi2018.tecnico.ulisboa.pt/">SMI 2018</a> - Lisbon, Portugal [<a
-                        href="https://www.sciencedirect.com/journal/computers-and-graphics/special-issue/10RZ9DXPNK4">proceedings</a>]
-                </h4>
-                <h4><a href="http://igs2016.mi.fu-berlin.de/smi2016/">SMI 2016</a> - Berlin, Germany [<a
-                        href="http://www.sciencedirect.com/science/journal/00978493/58">proceedings</a>]</h4>
-                <h4><a href="https://web.archive.org/web/20161111153853/http://www.mae.cuhk.edu.hk:80/~smi2014/">SMI
-                        2014</a> - Sha Tin, Hong Kong [<a
-                        href="http://www.sciencedirect.com/science/journal/00978493/46">proceedings</a>]</h4>
-                <h4><a href="https://web.archive.org/web/20210125193111/http://smi2012.viz.tamu.edu/">SMI 2012</a> -
-                    College Station, Texas, USA [<a
-                        href="http://www.sciencedirect.com/science/journal/00978493/36/5">proceedings</a>]</h4>
-                <h4><a href="https://web.archive.org/web/20130927205309/http://www.smi2010.lsis.org/">SMI 2010</a> -
-                    Aix-En Provence, France [<a
-                        href="http://www.sciencedirect.com/science/journal/00978493/34/3">proceedings</a>]</h4>
-                <h4><a href="http://www.cs.sunysb.edu/~smi08/">SMI 2008</a> - Stony Brook, NY, USA [<a
-                        href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4542731">proceedings</a>]</h4>
-                <h4><a href="http://www.ifs.tohoku.ac.jp/SMI06/">SMI 2006</a> - Matsushima, Japan [<a
-                        href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10868">proceedings</a>]</h4>
-                <h4><a href="http://smi2004.ge.imati.cnr.it/">SMI 2004</a> - Genova, Italy [<a
-                        href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9186">proceedings</a>]</h4>
-                <h4>SMI 2002 - Banff, Alberta, Canada [<a
-                        href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7868">proceedings</a>]</h4>
-                <h4><a href="http://web-ext.u-aizu.ac.jp/labs/is-bit/SMI99/">SMI 1999</a> - Aizuwakamatsu, Japan [<a
-                        href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6058">proceedings</a>]</h4>
-            </div>
-            <div class="col-sm-6">
-                <h4><a href="https://naka242.github.io/">SMI 2019</a> - Vancouver, Canada [<a
-                        href="https://www.sciencedirect.com/journal/computers-and-graphics/special-issue/10ST0TSD731">proceedings</a>]
-                </h4>
-                <h4><a href="https://s3pm.icsi.berkeley.edu/s3pm/smi.html">SMI 2017</a> - Berkeley, California [<a
-                        href="http://www.sciencedirect.com/science/journal/00978493/66">proceedings</a>]</h4>
-                <h4><a href="http://www-rech.telecom-lille.fr/smi2015/">SMI 2015</a> - Lille, France [<a
-                        href="http://www.sciencedirect.com/science/journal/00978493/51">proceedings</a>]</h4>
-                <h4><a href="https://web.archive.org/web/20130927024112/http://www.shapemodeling.org/">SMI 2013</a> -
-                    Bournemouth, UK [<a
-                        href="http://www.sciencedirect.com/science/journal/00978493/37/6">proceedings</a>]</h4>
-                <h4>SMI 2011 - Herzliya, Israel [<a
-                        href="http://www.sciencedirect.com/science/journal/00978493/35/3">proceedings</a>]</h4>
-                <h4>SMI 2009 - Beijing, China [<a
-                        href="http://www.sciencedirect.com/science/journal/00978493/33/3">proceedings</a>]</h4>
-                <h4><a href="http://smi07.liris.cnrs.fr/">SMI 2007</a> - Lyon, France [<a
-                        href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4273353">proceedings</a>]</h4>
-                <h4><a href="http://deslab.mit.edu/SM-SMI-2005/">SMI 2005</a> - Cambridge, MA, USA [<a
-                        href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10452">proceedings</a>]</h4>
-                <h4><a href="http://www.informatik.uni-trier.de/~ley/db/conf/smi/smi2003.html">SMI 2003</a> - Seoul,
-                    Korea [<a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8542">proceedings</a>]
-                </h4>
-                <h4>SMI 2001 - Genova, Italy [<a
-                        href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7349">proceedings</a>]</h4>
-                <h4><a href="http://web-ext.u-aizu.ac.jp/labs/is-bit/SMI97/">SMI 1997</a> - Aizuwakamatsu, Japan [<a
-                        href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5024">proceedings</a>]</h4>
-            </div>
+      <div class="container">
+        <h2 class="heading">Previous conferences</h2>
+        <div class="col-sm-6">
+          <h4>
+            <a href="https://smi2020.sciencesconf.org/">SMI 2020</a> - virtual
+            conference [<a
+              href="https://www.sciencedirect.com/journal/computers-and-graphics/special-issue/108JQQ472DJ"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="https://smi2018.tecnico.ulisboa.pt/">SMI 2018</a> - Lisbon,
+            Portugal [<a
+              href="https://www.sciencedirect.com/journal/computers-and-graphics/special-issue/10RZ9DXPNK4"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="http://igs2016.mi.fu-berlin.de/smi2016/">SMI 2016</a> -
+            Berlin, Germany [<a
+              href="http://www.sciencedirect.com/science/journal/00978493/58"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a
+              href="https://web.archive.org/web/20161111153853/http://www.mae.cuhk.edu.hk:80/~smi2014/"
+              >SMI 2014</a
+            >
+            - Sha Tin, Hong Kong [<a
+              href="http://www.sciencedirect.com/science/journal/00978493/46"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a
+              href="https://web.archive.org/web/20210125193111/http://smi2012.viz.tamu.edu/"
+              >SMI 2012</a
+            >
+            - College Station, Texas, USA [<a
+              href="http://www.sciencedirect.com/science/journal/00978493/36/5"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a
+              href="https://web.archive.org/web/20130927205309/http://www.smi2010.lsis.org/"
+              >SMI 2010</a
+            >
+            - Aix-En Provence, France [<a
+              href="http://www.sciencedirect.com/science/journal/00978493/34/3"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="http://www.cs.sunysb.edu/~smi08/">SMI 2008</a> - Stony
+            Brook, NY, USA [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4542731"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="http://www.ifs.tohoku.ac.jp/SMI06/">SMI 2006</a> -
+            Matsushima, Japan [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10868"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="http://smi2004.ge.imati.cnr.it/">SMI 2004</a> - Genova,
+            Italy [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=9186"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            SMI 2002 - Banff, Alberta, Canada [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7868"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="http://web-ext.u-aizu.ac.jp/labs/is-bit/SMI99/"
+              >SMI 1999</a
+            >
+            - Aizuwakamatsu, Japan [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6058"
+              >proceedings</a
+            >]
+          </h4>
         </div>
+        <div class="col-sm-6">
+          <h4>
+            <a href="https://naka242.github.io/">SMI 2019</a> - Vancouver,
+            Canada [<a
+              href="https://www.sciencedirect.com/journal/computers-and-graphics/special-issue/10ST0TSD731"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="https://s3pm.icsi.berkeley.edu/s3pm/smi.html">SMI 2017</a>
+            - Berkeley, California [<a
+              href="http://www.sciencedirect.com/science/journal/00978493/66"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="http://www-rech.telecom-lille.fr/smi2015/">SMI 2015</a> -
+            Lille, France [<a
+              href="http://www.sciencedirect.com/science/journal/00978493/51"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a
+              href="https://web.archive.org/web/20130927024112/http://www.shapemodeling.org/"
+              >SMI 2013</a
+            >
+            - Bournemouth, UK [<a
+              href="http://www.sciencedirect.com/science/journal/00978493/37/6"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            SMI 2011 - Herzliya, Israel [<a
+              href="http://www.sciencedirect.com/science/journal/00978493/35/3"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            SMI 2009 - Beijing, China [<a
+              href="http://www.sciencedirect.com/science/journal/00978493/33/3"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="http://smi07.liris.cnrs.fr/">SMI 2007</a> - Lyon, France
+            [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4273353"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="http://deslab.mit.edu/SM-SMI-2005/">SMI 2005</a> -
+            Cambridge, MA, USA [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=10452"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a
+              href="http://www.informatik.uni-trier.de/~ley/db/conf/smi/smi2003.html"
+              >SMI 2003</a
+            >
+            - Seoul, Korea [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8542"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            SMI 2001 - Genova, Italy [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7349"
+              >proceedings</a
+            >]
+          </h4>
+          <h4>
+            <a href="http://web-ext.u-aizu.ac.jp/labs/is-bit/SMI97/"
+              >SMI 1997</a
+            >
+            - Aizuwakamatsu, Japan [<a
+              href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5024"
+              >proceedings</a
+            >]
+          </h4>
+        </div>
+      </div>
     </section>
 
-
-
     <section id="contact">
-        <div class="contact-section">
-            <div class="ear-piece">
-                <img class="img-responsive" src="images/ear-piece.png" alt="">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-5 col-sm-offset-4">
-                        <div class="contact-address">
-                            <!-- <h4>Address</h4> -->
-                            <address>
-                                Please feel free to contact us through emails. <br>
-                            </address>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="contact-section">
+        <div class="ear-piece">
+          <img class="img-responsive" src="images/ear-piece.png" alt="" />
         </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5 col-sm-offset-4">
+              <div class="contact-address">
+                <!-- <h4>Address</h4> -->
+                <address>
+                  Please feel free to contact us through emails. <br />
+                </address>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer id="footer">
-        <div class="container">
-            <div class="text-center">
-                </br>
-            </div>
-        </div>
+      <div class="container">
+        <div class="text-center"></div>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>
