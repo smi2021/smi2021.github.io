@@ -615,7 +615,15 @@
                 date1.toString().substring(9, 10) > 4
               )
                 add = " (Your location - Next day)";
-              else add = date0.substr(12, 13) + " (Your location)";
+              else add = " (Your location)";
+
+              // var l = data0.toString().search(":");
+              // return (
+              //   date0.toString().substring(l-2, l) +
+              //   "-" +
+              //   date1.toString().substring(l+1, l+3) +
+              //   add
+              // );
 
               return (
                 date0.toString().substring(16, 21) +
