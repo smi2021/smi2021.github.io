@@ -555,15 +555,18 @@
             </li>
           </ul>
           <p>
-            To register, go to 
+            To register, go to
             <a href="http://tx.ag/SMI21">the registration link</a>. After
             registration, you will receive the confirmation email sent from
             sdunn at arch.tamu.edu in a few minutes. Please check your junk
             email folder just in case the confirmation email got delivered
-            there. Please contact <a
-            href="mailto:ergun.akleman@gmail@@com?subject=[SMI2021]"
-            onmouseover="this.href=this.href.replace('@@','.')"
-          >Ergun Akleman</a> if you need official letters. 
+            there. Please contact
+            <a
+              href="mailto:ergun.akleman@gmail@@com?subject=[SMI2021]"
+              onmouseover="this.href=this.href.replace('@@','.')"
+              >Ergun Akleman</a
+            >
+            if you need official letters.
           </p>
         </div>
 
@@ -586,10 +589,10 @@
         <div class="col-sm-2"></div>
         <div class="col-sm-6">
           <h2>
-            Tentative Program (Nov. <a href="#day1">14th</a>, <a href="#day2">15th</a>,
-            <a href="#day3">16th</a>)
+            Tentative Program (Nov. <a href="#day1">14th</a>,
+            <a href="#day2">15th</a>, <a href="#day3">16th</a>)
           </h2>
-          <h3>
+          <!-- <h3>
             <font color="orange"
               >For your convenience, please visit
               <a
@@ -598,7 +601,30 @@
               >
               to find your localtime.
             </font>
-          </h3>
+          </h3> -->
+
+          <script language="javascript" type="text/javascript">
+            function locatime(tbegin, tend) {
+              var str0 = "2021-11-14 " + tbegin + ":00 EST";
+              var str1 = "2021-11-14 " + tend + ":00 EST";
+              var date0 = new Date(str0);
+              var date1 = new Date(str1);
+              var add = "";
+              if (
+                date0.toString().substring(9, 10) > 4 ||
+                date1.toString().substring(9, 10) > 4
+              )
+                add = " (Your location - Next day)";
+              else add = date0.substr(12, 13) + " (Your location)";
+
+              return (
+                date0.toString().substring(16, 21) +
+                "-" +
+                date1.toString().substring(16, 21) +
+                add
+              );
+            }
+          </script>
 
           <style type="text/css">
             .tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
@@ -622,7 +648,10 @@
                 <td class="tg-0lax">
                   10:30-11:00 (New York) <br />
                   16:30-17:00 (Rome) <br />
-                  23:30-24:00 (Beijing)
+                  23:30-24:00 (Beijing) <br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("10:30", "11:00"));
+                  </script>
                 </td>
                 <td class="tg-0lax">Opening</td>
               </tr>
@@ -630,14 +659,17 @@
                 <td class="tg-0lax">
                   11:00-11:50 (New York)<br />
                   17:00-17:50 (Rome)<br />
-                  24:00-00:50 (Beijing - Next Day)
+                  24:00-00:50 (Beijing - Next Day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("11:00", "11:50"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Panel: Early days of Subdivision <br />
                   Chair: <i>Ergun Akleman</i><br />
                   Panelists:
                   <i
-                    >Ed Catmull , Elaine Cohen, Tony DeRose, Jeff Lane, Richard
+                    >Ed Catmull, Elaine Cohen, Tony DeRose, Jeff Lane, Richard
                     Riesenfeld, Malcolm Sabin</i
                   >
                 </td>
@@ -646,7 +678,10 @@
                 <td class="tg-0lax">
                   12:00-12:50 (New York) <br />
                   18:00-18:50 (Rome)<br />
-                  01:00-01:50 (Beijing - Next day)
+                  01:00-01:50 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("12:00", "12:50"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Panel: Subdivision Becomes Mainstream in Graphics <br />
@@ -662,7 +697,10 @@
                 <td class="tg-0lax">
                   13:00-13:50 (New York)<br />
                   19:00-19:50 (Rome)<br />
-                  02:00-02:50 (Beijing - Next day)
+                  02:00-02:50 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("13:00", "13:50"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Panel: Beyond <br />
@@ -686,7 +724,10 @@
                 <td class="tg-0lax">
                   08:00-08:45 (New York)<br />
                   14:00-14:45 (Rome)<br />
-                  21:00-21:45 (Beijing)
+                  21:00-21:45 (Beijing)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("08:00", "08:45"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Keynote: <i>TBA</i> <br />
@@ -698,7 +739,10 @@
                 <td class="tg-0lax">
                   08:45-09:45 (New York)<br />
                   14:45-15:45 (Rome)<br />
-                  21:45-22:45 (Beijing)
+                  21:45-22:45 (Beijing)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("08:45", "09:45"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Session I: Modeling & Reconstruction <br />
@@ -723,7 +767,10 @@
                 <td class="tg-0lax">
                   09:45-10:00 (New York) <br />
                   15:45-16:00 (Rome)<br />
-                  22:45-23:00 (Beijing)
+                  22:45-23:00 (Beijing)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("09:45", "10:00"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Virtual Coffee Break <br />
@@ -735,7 +782,10 @@
                 <td class="tg-0lax">
                   10:00-10:45 (New York)<br />
                   16:00-16:45 (Rome)<br />
-                  23:00-23:45 (Beijing)
+                  23:00-23:45 (Beijing)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("10:00", "10:45"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Award Talk: <i>TBA</i> <br />
@@ -748,7 +798,10 @@
                 <td class="tg-0lax">
                   10:45-11:45 (New York)<br />
                   16:45-17:45 (Rome)<br />
-                  23:45-00:45 (Beijing - Next day)
+                  23:45-00:45 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("10:45", "11:45"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Session II: Learning-based Reconstruction <br />
@@ -774,7 +827,10 @@
                 <td class="tg-0lax">
                   11:45-12:00 (New York) <br />
                   17:45-18:00 (Rome)<br />
-                  00:45-01:00 (Beijing - Next day)
+                  00:45-01:00 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("11:45", "12:00"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Virtual Coffee Break <br />
@@ -786,7 +842,10 @@
                 <td class="tg-0lax">
                   12:00-12:15 (New York)<br />
                   18:00-18:15 (Rome)<br />
-                  01:00-01:15 (Beijing - Next day)
+                  01:00-01:15 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("12:00", "12:15"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Virtual Award Ceremony <br />
@@ -798,7 +857,10 @@
                 <td class="tg-0lax">
                   12:15-13:15 (New York)<br />
                   18:15-19:15 (Rome)<br />
-                  01:15-02:15 (Beijing - Next day)
+                  01:15-02:15 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("12:15", "13:15"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Session III: Registration & Animation <br />
@@ -835,7 +897,10 @@
                 <td class="tg-0lax">
                   13:15-13:30 (New York) <br />
                   19:15-19:30 (Rome)<br />
-                  02:15-02:30 (Beijing - Next day)
+                  02:15-02:30 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("13:15", "13:30"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Virtual Coffee Break <br />
@@ -854,7 +919,10 @@
                 <td class="tg-0lax">
                   08:00-08:30 (New York)<br />
                   14:00-14:30 (Rome)<br />
-                  21:00-21:30 (Beijing)
+                  21:00-21:30 (Beijing)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("08:00", "08:30"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Award Talk: <i>TBA</i> <br />
@@ -867,7 +935,10 @@
                 <td class="tg-0lax">
                   08:30-09:30 (New York) <br />
                   14:30-15:30 (Rome)<br />
-                  21:30-22:30 (Beijing)
+                  21:30-22:30 (Beijing)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("08:30", "09:30"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Session IV: Synthesis and Surfaces <br />
@@ -899,7 +970,10 @@
                 <td class="tg-0lax">
                   09:30-09:45 (New York) <br />
                   15:30-15:45 (Rome)<br />
-                  22:30-22:45 (Beijing)
+                  22:30-22:45 (Beijing)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("09:30", "09:45"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Virtual Coffee Break <br />
@@ -911,7 +985,10 @@
                 <td class="tg-0lax">
                   09:45-10:30 (New York)<br />
                   15:45-16:30 (Rome)<br />
-                  22:45-23:30 (Beijing)
+                  22:45-23:30 (Beijing)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("09:45", "10:30"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Keynote:
@@ -926,7 +1003,10 @@
                 <td class="tg-0lax">
                   10:30-11:10 (New York) <br />
                   16:30-17:10 (Rome)<br />
-                  23:30-00:10 (Beijing - Next day)
+                  23:30-00:10 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("10:30", "11:10"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Session V: Reconstruction & Representation <br />
@@ -952,7 +1032,10 @@
                 <td class="tg-0lax">
                   11:10-13:10 (New York) <br />
                   17:10-19:10 (Rome)<br />
-                  00:10-02:10 (Beijing - Next day)
+                  00:10-02:10 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("11:10", "13:10"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   FASE Paper Session <br />
@@ -965,7 +1048,10 @@
                 <td class="tg-0lax">
                   13:10-13:25 (New York) <br />
                   19:10-19:25 (Rome)<br />
-                  02:10-02:25 (Beijing)
+                  02:10-02:25 (Beijing)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("13:10", "13:25"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Virtual Coffee Break <br />
@@ -977,7 +1063,10 @@
                 <td class="tg-0lax">
                   13:25-13:55 (New York) <br />
                   19:25-19:55 (Rome)<br />
-                  02:00-02:55 (Beijing - Next day)
+                  02:25-02:55 (Beijing - Next day)<br />
+                  <script language="javascript" type="text/javascript">
+                    document.write(locatime("13:25", "13:55"));
+                  </script>
                 </td>
                 <td class="tg-0lax">
                   Best paper awards & Ending <br />
@@ -1041,6 +1130,13 @@
             <h3 style="color: rgba(99, 2, 209, 0.918)"><b>Title: TBD</b></h3>
             <p><b>Date:</b> 15<sup>th</sup> Nov, 08:00-08:45 am (EST)</p>
             <p><b>Abstract:</b> TBD.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-7">
+            <hr />
+            &nbsp;
           </div>
         </div>
 
@@ -1184,6 +1280,13 @@
             <h3 style="color: rgba(99, 2, 209, 0.918)"><b>Title: TBD</b></h3>
             <p><b>Date:</b> 16<sup>th</sup> Nov, 08:00-08:30 am (EST)</p>
             <p><b>Abstract:</b> TBD.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-7">
+            <hr />
+            &nbsp;
           </div>
         </div>
 
