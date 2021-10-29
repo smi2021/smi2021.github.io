@@ -574,6 +574,16 @@ h2 {
   background-repeat: no-repeat;
 }
 
+#program a{
+	text-decoration:		none;
+	color:					#f8af42;
+}
+
+#program a:hover{
+	text-decoration:		none;
+	color:					#e6d1cf;
+}
+
 #program li{
     background-color: #506081;
     border: 0;
